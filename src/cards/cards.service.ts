@@ -16,13 +16,14 @@ type Filters = {
 @Injectable()
 export class CardsService {
   getCards(skip = 0, limit = 15, filters: Filters = {}): any {
-    const totalData = data?.data;
-
+    const totalData = data?.data.filter((f) => f || filters);
+    const pageData = totalData.slice(skip, skip + limit);
     return {
       skip,
       limit,
+      count: pageData.length,
       totalRecords: totalData.length,
-      data: totalData.slice(skip, skip + limit),
+      data: pageData,
     };
   }
 }
