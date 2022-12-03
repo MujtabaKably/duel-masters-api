@@ -1,29 +1,54 @@
 import { Injectable } from '@nestjs/common';
+import { ResponseDTO } from 'src/dto/response.dto';
 import { data } from '../final-processed-data';
-
-type Filters = {
-  sets?: any[];
-  illustrators?: any[];
-  rarities?: any[];
-  civilization?: any[];
-  races?: any[];
-  types?: any[];
-  power?: string | number;
-  mana?: string | number;
-  properties?: any[];
-};
+import { GetCardDTO } from './dto/get-card.dto';
 
 @Injectable()
 export class CardsService {
-  getCards(skip = 0, limit = 15, filters: Filters = {}): any {
-    const totalData = data?.data.filter((f) => f || filters);
-    const pageData = totalData.slice(skip, skip + limit);
-    return {
+  getCards(getCardsDto: GetCardDTO): ResponseDTO {
+    const {
       skip,
       limit,
-      count: pageData.length,
-      totalRecords: totalData.length,
-      data: pageData,
-    };
+      types,
+      civilizations,
+      illustrators,
+      mana,
+      power,
+      properties,
+      races,
+      rarities,
+      sets,
+    } = getCardsDto;
+    console.log(
+      types,
+      civilizations,
+      illustrators,
+      mana,
+      power,
+      properties,
+      races,
+      rarities,
+      sets,
+    );
+    const totalData = data?.data
+      .filter((f) =>
+        getFilter(types) ? types.includes(f.type.toLowerCase()) : true,
+      )
+      .filter((f) =>
+        getFilter(civilizations)
+          ? civilizations.reduce(
+              (acc, val) =>
+                !!(
+                  acc ||
+                  f.civilizations.map((c) => c.toLowerCase()).includes(val)
+                ),
+              false,
+            )
+          : true,
+      );
+    const pageData = totalData.slice(skip, skip + limit);
+    return new ResponseDTO(skip, limit, pageData, totalData.length);
   }
 }
+
+const getFilter = (val: any[]): boolean => !!(val && val.length);
