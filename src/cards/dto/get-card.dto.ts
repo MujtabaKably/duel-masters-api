@@ -12,12 +12,12 @@ export class GetCardDTO {
   @IsOptional()
   @IsInt()
   @Transform((v) => +v.value)
-  skip?: number;
+  skip?: number = 0;
 
   @IsOptional()
   @IsInt()
   @Transform((v) => +v.value)
-  limit?: number;
+  limit?: number = 10;
 
   @IsOptional()
   @IsArray()
