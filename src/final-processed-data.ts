@@ -21,7 +21,7 @@ export const data: Data = {
     'dm12',
     'dm03',
     'dm02',
-    'dm05.raw.json',
+    'dm05',
     'dm07',
     'dm08',
     'dm01',

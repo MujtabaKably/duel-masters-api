@@ -3,7 +3,7 @@ export class ResponseDTO {
     this.skip = skip;
     this.limit = limit;
     this.count = data.length;
-    this.totalRecords = totalRecords;
+    this.totalRecords = totalRecords ? totalRecords : data.length;
     this.data = data;
   }
   skip: number;
