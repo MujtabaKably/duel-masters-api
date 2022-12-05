@@ -7,7 +7,11 @@ export class CivilizationsService {
     return new ResponseDTO(
       0,
       0,
-      data.civilizations.map((ill, i) => ({ id: i + 1, value: ill })),
+      data.civilizations.map((ill, i) => ({
+        id: i + 1,
+        value: ill,
+        races: data.pureRaces[ill],
+      })),
       0,
     );
   }
