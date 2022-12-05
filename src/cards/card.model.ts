@@ -9,7 +9,7 @@ export type Card = {
   civilizations: string[];
   cost: string | number;
   name: string;
-  power?: string | number;
+  power?: string;
   printings: Printings[];
   subtypes?: string[];
   supertypes?: string[];
@@ -25,4 +25,5 @@ type Printings = {
   illustrator: string;
   flavor?: string;
   image?: string;
+  setName?: string;
 };

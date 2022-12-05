@@ -21,7 +21,7 @@ export const data: Data = {
     'dm12',
     'dm03',
     'dm02',
-    'dm05',
+    'dm05.raw.json',
     'dm07',
     'dm08',
     'dm01',
@@ -265,6 +265,7 @@ export const data: Data = {
             '"We have learned all we can about these specimens. But just to be sure, let\'s probe them again."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/68/AbductionCharger.jpg/revision/latest?cb=20130115213453',
+          setName: 'DM09',
         },
       ],
       text: "Choose up to 2 creatures in the battle zone and return them to their owners' hands.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)",
@@ -289,6 +290,7 @@ export const data: Data = {
           id: '26/55',
           rarity: 'Common',
           illustrator: 'Takesi Kuno',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -315,6 +317,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Naoki Saito',
           flavor: '"Aw, man-I got a speck of asteroid in my eye."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -342,6 +345,7 @@ export const data: Data = {
           illustrator: 'sgr',
           flavor:
             'Adventure Boar was about to regret the midlife crisis that led him to change his name from Caution Boar. Caution Boar always used a net. Caution Boar always took out vine insurance. Caution Boar always avoided massive head trauma.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -369,6 +373,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"All armies, move out! It\'s time to make Photocide see the light!"',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Angel Command'],
@@ -396,6 +401,7 @@ export const data: Data = {
           illustrator: 'Hisashi Momose',
           flavor:
             'Never say anything an aerodactyl is likely to agree with. Having it nod at you can be fatal.',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Armorloid'],
@@ -422,6 +428,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Hisashi Momose',
           flavor: '"I\'m the garbage collector. You\'re the garbage."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -447,6 +454,7 @@ export const data: Data = {
           id: '16/55',
           rarity: 'Rare',
           illustrator: 'Naoki Saito',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Gladiator', 'Earth Eater'],
@@ -474,6 +482,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Seki',
           flavor: 'We have watched and we have waited. Now we act.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Angel Command'],
@@ -501,6 +510,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Takesi Kuno',
           flavor: '"Hey, you! Get solid!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Berserker'],
@@ -527,6 +537,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Norikatsu Miyoshi',
           flavor: '"Will someone tell Dawn Giant that I\'m not a toy?"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -553,6 +564,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akifumi Yamamoto',
           flavor: 'Each surge of electricity triggers a growth spurt.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -579,6 +591,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Daisuke Izuka',
           flavor: '"Let\'s see what we can dig up."',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -587,7 +600,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'AmbushScorpion',
       cardFileName: 'AmbushScorpion.jpg',
       downloadUrl: {
@@ -605,6 +618,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Tomofumi Ogasawara',
           flavor: 'Its hard outer shell covers up an even harder inner core.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -632,6 +646,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             '"I don\'t care how hugely, massively, gigantically big it is! Stop it before it gets to General Trox!" â€”Zagaan, Knight of Darkness',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Giant'],
@@ -659,6 +674,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             "It's revered as one of the strongest creatures of the forest simply because it's able to stand without collapsing under its own weight.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -684,6 +700,7 @@ export const data: Data = {
           id: '12/55',
           rarity: 'Common',
           illustrator: 'Kou1',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -710,6 +727,7 @@ export const data: Data = {
           illustrator: 'Hisashi Momose',
           flavor:
             '"I\'ve invented a fun new weight-loss machine! It\'s guaranteed to make you thinner, or your money back!" â€”Rikabu, the Dismantler',
+          setName: 'DM07',
         },
       ],
       text: "Destroy any number of your opponent's creatures that have total power 8000 or less.",
@@ -736,6 +754,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             'Atop the towers of Light, the rogue spy was given the target of his next mission: home.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Liquid People'],
@@ -761,6 +780,7 @@ export const data: Data = {
           id: '12/55',
           rarity: 'Rare',
           illustrator: 'Ryoya Yuki',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Liquid People'],
@@ -787,6 +807,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Dustmoss',
           flavor: 'Nothing is quite what it seems.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Liquid People'],
@@ -813,6 +834,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Yoshio Sugiura',
           flavor: 'His opponents end up beside themselves in anger.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Liquid People'],
@@ -840,6 +862,7 @@ export const data: Data = {
           illustrator: 'Hisashi Momose',
           flavor:
             '"I specialize in kicking! And jumping! And sometimes spinning and whirling! I know my mom spent all that money on grappling lessons, but that\'s just not what I\'m into anymore."',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Liquid People'],
@@ -866,6 +889,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akifumi Yamamoto',
           flavor: "This ocean ain't big enough for the two of us!",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Liquid People'],
@@ -895,6 +919,7 @@ export const data: Data = {
             'Liquid People freely control liquid. For them, water is armor and shield.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/4a/AquaHulcus.jpg/revision/latest?cb=20210210020447',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Liquid People'],
@@ -921,6 +946,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Daisuke Izuka',
           flavor: 'Saltwater makes me thirsty.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Liquid People'],
@@ -949,6 +975,7 @@ export const data: Data = {
           flavor: 'Like a whirlpool, it never seems to end.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/4c/AquaKnight.jpg/revision/latest?cb=20151127043747',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Liquid People'],
@@ -976,6 +1003,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             "\"You can't hide information from the Cyber Lords. Haven't you figured it out yet? Your brain's been wired into the Ultracomputer!\"",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1003,6 +1031,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"I\'m on a special mission to the surface to bring back secret computer codes, enemy troop movements, and a case of metal polish."',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1029,6 +1058,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Kou1',
           flavor: '"Hey, pal-watch where you stick that fin!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1056,6 +1086,7 @@ export const data: Data = {
           illustrator: 'Tsutomu Kawade',
           flavor:
             'Liquid People can modify their abilities by reprogramming themselves.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1081,6 +1112,7 @@ export const data: Data = {
           id: '96/110',
           rarity: 'Rare',
           illustrator: 'Miya',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1109,6 +1141,7 @@ export const data: Data = {
           flavor: 'Water surrounds, enfolds, buoys...and attacks.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/4d/AquaSniper.jpg/revision/latest?cb=20100917040743',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1138,6 +1171,7 @@ export const data: Data = {
             '"What a spirit for such a skinny little thing." â€”Brawler Zyler',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/55/AquaSoldier.jpg/revision/latest?cb=20210210015759',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1165,6 +1199,7 @@ export const data: Data = {
           illustrator: 'Mikumo',
           flavor:
             '"I know five thousand songs. I can wail away on seventeen-minute speed-metal solos until your ears bleed. But all the fish ever want to hear me play are scales."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1173,7 +1208,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'AquaSurfer',
       cardFileName: 'AquaSurfer.jpg',
       downloadUrl: {
@@ -1191,6 +1226,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Yoshio Sugiura',
           flavor: '"Wave goodbye!"',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1217,6 +1253,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Taro Yamazaki',
           flavor: '"Tickle, tickle . . . ."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1246,6 +1283,7 @@ export const data: Data = {
             'The chip implanted in its head lets the Cyber Lords control its brain waves.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9d/AquaVehicle.jpg/revision/latest?cb=20210907142301',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Liquid People'],
@@ -1271,6 +1309,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'D-Suzuki',
           flavor: '"Dragonoids like explosions? Then this is their lucky day!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Guardian'],
@@ -1297,6 +1336,7 @@ export const data: Data = {
           id: '29/110',
           rarity: 'Uncommon',
           illustrator: 'Taro Yamazaki',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Moon'],
@@ -1322,6 +1362,7 @@ export const data: Data = {
           id: 'S4/55',
           rarity: 'Super Rare',
           illustrator: 'Hisashi Momose',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Human'],
@@ -1349,6 +1390,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Dai',
           flavor: '"Can someone reload me?"',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Human'],
@@ -1376,6 +1418,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Shishizaru',
           flavor: '"With a gun this big, how can I miss?"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Human'],
@@ -1403,6 +1446,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
           flavor: "\"'Overkill'? You just made that word up, didn't you?\"",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Human'],
@@ -1431,6 +1475,7 @@ export const data: Data = {
           illustrator: 'Tomofumi Ogasawara',
           flavor:
             "An Armorloid's career has two stages: fearsome warrior and scrap metal.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Armorloid'],
@@ -1457,6 +1502,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Sansyu',
           flavor: "Luckily, it doesn't rely on the element of surprise.",
+          setName: 'DM07',
         },
       ],
       subtypes: ['Armorloid'],
@@ -1485,6 +1531,7 @@ export const data: Data = {
           flavor: '"The world at peace? I\'d rather see the world in pieces."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/7/7b/ArmoredWalkerUrherion.jpg/revision/latest?cb=20210210075639',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armorloid'],
@@ -1512,6 +1559,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             "When you can create craters a mile wide, you don't have to aim too carefully.",
+          setName: 'DM03',
         },
       ],
       subtypes: ['Armorloid'],
@@ -1541,6 +1589,7 @@ export const data: Data = {
             '"Fix it? That\'s easy. Just hit it." â€”Legendary Artisan Picora',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/82/ArtisanPicora.jpg/revision/latest?cb=20210210074613',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Machine Eater'],
@@ -1566,6 +1615,7 @@ export const data: Data = {
           id: '6/55',
           rarity: 'Common',
           illustrator: 'Jason',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Initiate'],
@@ -1593,6 +1643,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'Can you even comprehend the overwhelming intellectual advantage I have over you?',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -1623,6 +1674,7 @@ export const data: Data = {
             'Even the smallest weapon attached to it has enough firepower to lay waste to an entire nation.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c1/AstrocometDragon.jpg/revision/latest?cb=20130112043346',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -1649,6 +1701,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Yoko Tsukamoto',
           flavor: '"In case of emergency, you\'re in deep trouble."',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -1676,6 +1729,7 @@ export const data: Data = {
           flavor: 'Hear the roar of the mighty Earth!',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/90/AuraBlast.jpg/revision/latest?cb=20210210093459',
+          setName: 'DM01',
         },
       ],
       text: 'Each of your creatures in the battle zone gets "power attacker +2000" until the end of the turn. (While attacking, a creature that has "power attacker +2000" gets +2000 power.)',
@@ -1700,6 +1754,7 @@ export const data: Data = {
           id: 'S5/55',
           rarity: 'Super Rare',
           illustrator: 'Toshiaki Takayama',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Pegasus'],
@@ -1727,6 +1782,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             "The forest hasn't grown this fast since the ancient invasion of the fertilizer fiends.",
+          setName: 'DM03',
         },
       ],
       text: 'Choose any number of your shields and put them into your mana zone.',
@@ -1753,6 +1809,7 @@ export const data: Data = {
           illustrator: 'Imo Kajii',
           flavor:
             '"Stupid Light creatures-all spheres and blobs and energy clouds. How can I blow their heads off if they don\'t have any?"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Armorloid'],
@@ -1761,7 +1818,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'AvalancheGiant',
       cardFileName: 'AvalancheGiant.jpg',
       downloadUrl: {
@@ -1780,6 +1837,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             'Its name is misleading. Mountains tremble in fear at the sight of it, and that causes avalanches. What it actually does to the mountains is much, much worse.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Giant'],
@@ -1806,6 +1864,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Sansyu',
           flavor: '"Surprise! It\'s your deathday party."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -1834,6 +1893,7 @@ export const data: Data = {
           illustrator: 'Ittoku',
           flavor:
             "Some Fire Birds are so eager to get into battle they don't bother to finish hatching first.",
+          setName: 'DM03',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -1861,6 +1921,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             '"I traded in my sport utility Gecko for a stretch Geckousine." â€” Artisan Picora',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Dune Gecko'],
@@ -1887,6 +1948,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Mikumo',
           flavor: 'It further blurs the fuzzy line between weird and freaky.',
+          setName: 'DM11',
         },
       ],
       subtypes: ["Pandora's Box"],
@@ -1914,6 +1976,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             'Breaking the ancient oath, it led the way to the waterfall where the Terradragons lay dreaming.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -1939,6 +2002,7 @@ export const data: Data = {
           id: '4/55',
           rarity: 'Very Rare',
           illustrator: 'Kou1',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -1967,6 +2031,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'For the first time since before the Megapocalypse, the forces of Light launched a full-fledged invasion of the planet surface. The Fire troops had no choice but to retreat.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Initiate'],
@@ -1992,6 +2057,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Ittoku',
           flavor: 'You see a world. I see a graveyard-to-be.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Demon Command'],
@@ -2001,7 +2067,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BalloonshroomQ',
       cardFileName: 'BalloonshroomQ.jpg',
       downloadUrl: {
@@ -2020,6 +2086,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             'During the Megapocalypse, the only way to survive was to cooperate...and adapt.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Balloon Mushroom'],
@@ -2028,7 +2095,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BallusDogfightEnforcerQ',
       cardFileName: 'BallusDogfightEnforcerQ.jpg',
       downloadUrl: {
@@ -2047,6 +2114,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'To indicate the telepathic link shared by all Survivors, scientists added a code letter to their names.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Berserker'],
@@ -2072,6 +2140,7 @@ export const data: Data = {
           id: '1/110',
           rarity: 'Very Rare',
           illustrator: 'Sansyu',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -2099,6 +2168,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             '"War isn\'t a game. Sure, one side wins, the other side loses, and it\'s a lot of fun, but...well...hey, maybe it is a game."',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -2126,6 +2196,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             'It has no propulsion system. Instead, it moves by creating tiny vortex portals and warping itself a foot at a time.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Gladiator'],
@@ -2153,6 +2224,7 @@ export const data: Data = {
           illustrator: 'Tsutomu Kawade',
           flavor:
             '"Rage leads to war. War leads to rage. Isn\'t it magical?" â€”General Dark Fiend',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -2181,6 +2253,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             "\"Great. Another failure. Maybe it's time to face the fact that my brain-surgery experiments just aren't going to-Wait! I've got an idea! Nurse, bring me six rusty spikes!\"",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Ghost'],
@@ -2208,6 +2281,7 @@ export const data: Data = {
           illustrator: 'Nakagawa',
           flavor:
             '"I programmed it to fire missiles randomly every hour. What\'s the worst it can hit? Land?" â€”Milporo',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -2233,6 +2307,7 @@ export const data: Data = {
           id: '3/55',
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Hedrian'],
@@ -2258,6 +2333,7 @@ export const data: Data = {
           id: '75/110',
           rarity: 'Rare',
           illustrator: 'Ken Sugawara',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2285,6 +2361,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             "The cannon is covered in slime. It runs on slime. It's fired by slime. Guess what it shoots?",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Hedrian'],
@@ -2311,6 +2388,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Katsuya',
           flavor: "It doesn't breathe oxygen-it breathes neon.",
+          setName: 'DM11',
         },
       ],
       subtypes: ['Gladiator'],
@@ -2336,6 +2414,7 @@ export const data: Data = {
           id: '38/55',
           rarity: 'Common',
           illustrator: 'Hisashi Momose',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Gladiator'],
@@ -2363,6 +2442,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'It\'s a treasure chest - if you consider a screeching entity of unspeakable horror to be "treasure."',
+          setName: 'DM10',
         },
       ],
       subtypes: ["Pandora's Box"],
@@ -2390,6 +2470,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             'It has waited for countless years, endlessly repeating the same silent plea whenever a potential victim passed by its lock: "Open me . . . open me . . . open me . . ."',
+          setName: 'DM11',
         },
       ],
       subtypes: ["Pandora's Box"],
@@ -2417,6 +2498,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             'The Dragons quickly learned there were new challengers for the title "Masters of the Sky."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -2443,6 +2525,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Mikumo',
           flavor: '"Beep, beep beepbeep beep. Beep."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Gladiator'],
@@ -2469,6 +2552,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Sansyu',
           flavor: '"Five . . . four . . . three . . . two . . ."',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -2494,6 +2578,7 @@ export const data: Data = {
           id: '18/55',
           rarity: 'Rare',
           illustrator: 'Koji Watanabe',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -2502,7 +2587,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BillionDegreeDragon',
       cardFileName: 'BillionDegreeDragon.jpg',
       downloadUrl: {
@@ -2521,6 +2606,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             'The Megapocalypse woke it from its slumber deep within the molten core of the planet. It is the avenger of the world. It is legendary. And it is very, very cranky.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2548,6 +2634,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"I thought it was a shooting star. . .until it changed direction." â€” Gigappi Ponto',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Gladiator'],
@@ -2575,6 +2662,7 @@ export const data: Data = {
           illustrator: 'Soushi Hirose',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/63/BlackFeatherShadowofRage.jpg/revision/latest?cb=20120420121744',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Ghost'],
@@ -2583,7 +2671,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BladerushSkyterrorQ',
       cardFileName: 'BladerushSkyterrorQ.jpg',
       downloadUrl: {
@@ -2602,6 +2690,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             'Its war cry shreds the clouds. Its blades shred everything else.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Armored Wyvern'],
@@ -2629,6 +2718,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           flavor:
             '"How dare you doubt me? I have called for reinforcements...from the Fire Realm." â€” Trox, General of Destruction',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -2653,6 +2743,7 @@ export const data: Data = {
           id: '36/55',
           rarity: 'Rare',
           illustrator: 'Sansyu',
+          setName: 'DM03',
         },
       ],
       text: 'You can cast this spell only if all the cards in your mana zone are fire cards.\nEach of your creatures in the battle zone gets "power attacker +4000" and "double breaker" until the end of the turn. (A creature that has "power attacker +4000" and "double breaker" gets +4000 power while attacking and breaks 2 shields.)',
@@ -2660,7 +2751,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BlazosaurQ',
       cardFileName: 'BlazosaurQ.jpg',
       downloadUrl: {
@@ -2678,6 +2769,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Sansyu',
           flavor: "The Blazosaur's roar echoes in the ears of every Survivor.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Rock Beast'],
@@ -2704,6 +2796,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Katsuya',
           flavor: '"Someone call a doctor-I\'ve got bongo fever!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -2730,6 +2823,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             '"That\'s my kind of winter wonderland." â€”Bazagazeal Dragon',
+          setName: 'DM09',
         },
       ],
       text: 'Destroy all creatures that have power 4000 or less.',
@@ -2737,7 +2831,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BloodwingMantis',
       cardFileName: 'BloodwingMantis.jpg',
       downloadUrl: {
@@ -2756,6 +2850,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             "From the moment it's born to the moment it dies, its wings never stop moving.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -2783,6 +2878,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/94/BloodySquito.jpg/revision/latest?cb=20210316075420',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -2808,6 +2904,7 @@ export const data: Data = {
           id: 'S9/110',
           rarity: 'Super Rare',
           illustrator: 'Tsuu',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Guardian'],
@@ -2834,6 +2931,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Ittoku',
           flavor: '"Knocked a mountain over once. Really hurt my toe."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Giant'],
@@ -2842,7 +2940,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BolgashDragon',
       cardFileName: 'BolgashDragon.jpg',
       downloadUrl: {
@@ -2861,6 +2959,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             'Its suit of armor belches out an electric smog cloud that serves as both camouflage and weapon.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2887,6 +2986,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Shishizaru',
           flavor: 'Part robot. Part Dragon. All robo-Dragon.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2915,6 +3015,7 @@ export const data: Data = {
           flavor: 'The last city that offended it is now a ruin.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/3/33/BolshackDragon.jpg/revision/latest?cb=20210211053740',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2941,6 +3042,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Miho Midorikawa',
           flavor: '"Leviathans? I can juggle Leviathans!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2968,6 +3070,7 @@ export const data: Data = {
           illustrator: 'Dustmoss',
           flavor:
             'When Bolshack awakes in the east, Bolzard roars in the west.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -2976,7 +3079,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BombatGeneralofSpeed',
       cardFileName: 'BombatGeneralofSpeed.jpg',
       downloadUrl: {
@@ -2994,6 +3097,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Naoki Saito',
           flavor: '"Too slow! Do I have to sit on a rocket to go faster?!"',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -3019,6 +3123,7 @@ export const data: Data = {
           id: '9/110',
           rarity: 'Very Rare',
           illustrator: 'Sansyu',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armored Dragon', 'Earth Dragon'],
@@ -3046,6 +3151,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             '"This species inhabits liquid rock. Highly dangerous." â€”Liquid People scouting report',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -3071,6 +3177,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Katsuya',
           flavor: '"Need a lift?" â€”Kanesill, the Explorer',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nTap all creatures in the battle zone that don\'t have "blocker."',
@@ -3099,6 +3206,7 @@ export const data: Data = {
             "Commanders send them to the front line. It's too dangerous to have them close.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/f/f8/BoneAssassintheRipper.jpg/revision/latest?cb=20210316075429',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Living Dead'],
@@ -3126,6 +3234,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             '"What do you mean that\'s not food? Just give me some ketchup!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -3153,6 +3262,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             'They can wait forever, for they know they will not die alone.',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Living Dead'],
@@ -3180,6 +3290,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             '"Everything was under control until I tried to roast marshmallows on it." â€”Aqua Trickster',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Melt Warrior'],
@@ -3204,6 +3315,7 @@ export const data: Data = {
           id: '3/55',
           rarity: 'Uncommon',
           illustrator: 'Youichi Kai',
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nReturn a card from your mana zone to your hand.\nAfter you cast this spell, put it into your mana zone instead of your graveyard.',
@@ -3230,6 +3342,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"It\'s just what I need for slicing cheese, trimming hedges, and turning ultra-armored sky tanks into scrap metal." â€”Brad, Super Kickin\' Dynamo',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -3256,6 +3369,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Toshiaki Takayama',
           flavor: '"I\'d like to thank my feet for being so awesome."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Human'],
@@ -3282,6 +3396,7 @@ export const data: Data = {
           illustrator: 'Dreamwave',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/83/BrainSerum.jpg/revision/latest?cb=20211020003829',
+          setName: 'DM01',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDraw up to 2 cards.',
@@ -3309,6 +3424,7 @@ export const data: Data = {
           flavor: '"I wouldn\'t, if I were you. You don\'t want to get hurt."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/2/20/BrawlerZyler.jpg/revision/latest?cb=20210316075225',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Human'],
@@ -3337,6 +3453,7 @@ export const data: Data = {
           flavor: "They're bringing some friends to the party.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/17/Bronze-Arm_Tribe.jpg/revision/latest?cb=20210316075144',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -3364,6 +3481,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             'Colony Beetles do nothing but lay eggs, ponder the existential questions of truth and beauty, and lay more eggs.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -3391,6 +3509,7 @@ export const data: Data = {
           illustrator: 'Asai Genji',
           flavor:
             '"It\'s a Dragon party! Oh yeah! Time to burn this planet to a crisp!"',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -3399,7 +3518,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'BrutalCharge',
       cardFileName: 'BrutalCharge.jpg',
       downloadUrl: {
@@ -3416,6 +3535,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Dustmoss',
           flavor: "Kondu started to regret joining Wrugh's carpool.",
+          setName: 'DM05',
         },
       ],
       text: "At the end of this turn, search your deck. For each of your opponent's shields your creatures broke this turn, you may take a creature from your deck, show it to your opponent, and put it into your hand. Then shuffle your deck.",
@@ -3441,6 +3561,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Ken Sugawara',
           flavor: 'Ant and farm rolled into one.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -3468,6 +3589,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"I spin webs of fog and dreams. My favorite is when someone has a dream about fog!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Soltrooper'],
@@ -3495,6 +3617,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             "\"I'm not quite sure what I'm going to do with it yet. But it won me an award at this year's mad-scientist convention!\" â€” Zaltan",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -3524,6 +3647,7 @@ export const data: Data = {
             'It pulled a young tree up by the roots, swinging it over its head as though it were a twig.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/0/00/BurningMane.jpg/revision/latest?cb=20210210093511',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -3550,6 +3674,7 @@ export const data: Data = {
           flavor: 'Witness the power of whirling fire!',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/5c/BurningPower.jpg/revision/latest?cb=20210210075949',
+          setName: 'DM01',
         },
       ],
       text: 'One of your creatures gets "power attacker +2000" until the end of the turn. (While attacking, a creature that has "power attacker +2000" gets +2000 power.)',
@@ -3575,6 +3700,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Koji Harada',
           flavor: '"Come on in, the lava\'s fine!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Melt Warrior'],
@@ -3599,6 +3725,7 @@ export const data: Data = {
           id: '37/55',
           rarity: 'Uncommon',
           illustrator: 'Sansyu',
+          setName: 'DM02',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy all creatures that have power 2000 or less.',
@@ -3625,6 +3752,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Buzz Betocchi is supposed to be my guide on this planet. Have you ever tried to have a conversation with someone whose language is half chirping and half buzzing? I gave up a week ago and just started wearing earplugs." â€” Soul Phoenix, Avatar of Unity',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Fire Bird', 'Giant Insect'],
@@ -3633,7 +3761,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'CalgoVizierofRainclouds',
       cardFileName: 'CalgoVizierofRainclouds.jpg',
       downloadUrl: {
@@ -3652,6 +3780,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             '"Arise, Vizier of Rainclouds. Your lash is the blade of justice." â€”Hanusa, Radiance Elemental',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Initiate'],
@@ -3678,6 +3807,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Shishizaru',
           flavor: 'Its crunchy outer shell protects a creamy caramel center.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -3706,6 +3836,7 @@ export const data: Data = {
           flavor: 'No mouth. Big bite.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/3/32/CandyDrop.jpg/revision/latest?cb=20210210015806',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -3732,6 +3863,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Kou1',
           flavor: 'It has hungered for revenge since the Dark Lords invaded.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -3740,7 +3872,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'CannoneerBargon',
       cardFileName: 'CannoneerBargon.jpg',
       downloadUrl: {
@@ -3758,6 +3890,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Nottsuo',
           flavor: '"Why bother aiming? I just fire in all directions at once."',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Armorloid'],
@@ -3785,6 +3918,7 @@ export const data: Data = {
           illustrator: 'Hisashi Momose',
           flavor:
             '"I\'ve been tracking an immense creature across the continent by following its huge footprints. One thing puzzles me, though-since when do footprints have thumbs?" â€”Feather Horn, the Tracker',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Giant'],
@@ -3810,6 +3944,7 @@ export const data: Data = {
           id: '47/55',
           rarity: 'Rare',
           illustrator: 'Kou1',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -3836,6 +3971,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Haccan',
           flavor: '"Choice 1: Have fun. Choice 2: We make you have fun."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -3863,6 +3999,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             'The rocky plains where Colony Beetles lay their eggs eventually become fertile fields covered in grass and flowers.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -3871,7 +4008,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'CataclysmicEruption',
       cardFileName: 'CataclysmicEruption.jpg',
       downloadUrl: {
@@ -3889,6 +4026,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             'The skies fell, the seas boiled, the caves collapsed, the volcanoes melted, and the forests burned. The planet cracked open, and the Megapocalypse began.',
+          setName: 'DM05',
         },
       ],
       text: "For each nature creature you have in the battle zone, you may choose a card in your opponent's mana zone and put it into his graveyard.",
@@ -3915,6 +4053,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"Doesn\'t your scooter have a flamethrower, a grenade launcher, a bazooka, and a pair of roto-blades too?"',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -3942,6 +4081,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             '"My guidance counselor always told me I should be an action hero. She was right!"',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -3968,6 +4108,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akifumi Yamamoto',
           flavor: '"What\'s that smell?" â€”Mighty Bandit',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -3994,6 +4135,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"The only thing stronger than my chains is your fear." â€”Trox, General of Destruction',
+          setName: 'DM04',
         },
       ],
       text: "Destroy up to 2 of your opponent's creatures.\nDestroy one of your creatures.",
@@ -4018,6 +4160,7 @@ export const data: Data = {
           id: 'S2/55',
           rarity: 'Super Rare',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -4045,6 +4188,7 @@ export const data: Data = {
           flavor: '"You won\'t escape me!"',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/8a/ChaosStrike.jpg/revision/latest?cb=20130115202941',
+          setName: 'DM01',
         },
       ],
       text: "Choose 1 of your opponent's untapped creatures in the battle zone. Your creatures can attack it this turn as though it were tapped.",
@@ -4069,6 +4213,7 @@ export const data: Data = {
           id: '24/55',
           rarity: 'Uncommon',
           illustrator: 'Naoki Saito',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -4096,6 +4241,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
           flavor: 'I taught Trox and Ballom a trick. Now they breathe fire.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -4121,6 +4267,7 @@ export const data: Data = {
           id: '32/110',
           rarity: 'Rare',
           illustrator: 'Katsuya',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -4147,6 +4294,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Jason',
           flavor: '"Hmm. Flurry or blizzard?"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Snow Faerie'],
@@ -4174,6 +4322,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"If you don\'t chill out, I\'ll start an ice age and make you chill out!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Initiate'],
@@ -4201,6 +4350,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             '"Its blade, forged in the heat of stars, can penetrate any armor."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Initiate'],
@@ -4229,6 +4379,7 @@ export const data: Data = {
           flavor: 'The shining towers in the sky exist to protect the oracles.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/19/ChiliastheOracle.jpg/revision/latest?cb=20210210004914',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -4255,6 +4406,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Dai',
           flavor: '"Dude, check this out." SPROING!',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Human'],
@@ -4281,6 +4433,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Atsushi Kawasaki',
           flavor: 'It gives the term "boom box" a whole new meaning.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Berserker'],
@@ -4308,6 +4461,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"The last time he high-fived someone, he knocked over a mountain."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Giant'],
@@ -4333,6 +4487,7 @@ export const data: Data = {
           id: '95/110',
           rarity: 'Rare',
           illustrator: 'Youichi Kai',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -4359,6 +4514,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'The factory works day and night, laboring at endeavors best left unknown.',
+          setName: 'DM04',
         },
       ],
       text: 'Return up to 2 cards from your mana zone to your hand.',
@@ -4384,6 +4540,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"If you can avoid getting decapitated by it, it\'s totally fun to ride!" â€” Whirling Warrior Malian',
+          setName: 'DM12',
         },
       ],
       text: "Choose an opponent's creature in the battle zone that has power 3000 or less. Then, for each Cloned Blade in each graveyard, you may choose another opponent's creature in the battle zone that has power 3000 or less. Destroy all those creatures.",
@@ -4407,6 +4564,7 @@ export const data: Data = {
           id: '22/55',
           rarity: 'Uncommon',
           illustrator: 'Asai Genji',
+          setName: 'DM12',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose one of your opponent's creatures in the battle zone. Then, for each Cloned Deflector in each graveyard, you may choose another of your opponent's creatures in the battle zone. Tap all those creatures.",
@@ -4432,6 +4590,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             '"You can\'t hide from yourself." â€” Death Phoenix, Avatar of Doom',
+          setName: 'DM12',
         },
       ],
       text: "Choose a card at random from opponent's hand. Then, for each Cloned Nightmare in each graveyard, you may choose another card at random from opponent's hand. Your opponent discards all those cards.",
@@ -4458,6 +4617,7 @@ export const data: Data = {
           illustrator: 'Yoko Tsukamoto',
           flavor:
             'The wisdom, the strength, and the anger of each generation is passed on to the next.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -4484,6 +4644,7 @@ export const data: Data = {
           illustrator: 'Ittoku',
           flavor:
             'Once a week, the Cyber Lords pull the ocean\'s drain plug, flush out all the water, and refill it. It\'s their way of removing "impurities."',
+          setName: 'DM12',
         },
       ],
       text: "Choose a creature in battle zone. Then, for each Cloned Spiral in each graveyard, you may choose another creature in the battle zone. Return all those creature to their owner's hands.",
@@ -4510,6 +4671,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Each Fire Bird is given one Dragon egg to take care of. After the Dragon hatches, the friendship lasts a lifetime."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -4538,6 +4700,7 @@ export const data: Data = {
           flavor: 'They eat vegetarians.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/af/CoilingVines.jpg/revision/latest?cb=20210521082733',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -4565,6 +4728,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"What a terrible, senseless tragedy! My flogoball team was winning!" â€”Ballom, Master of Death',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -4591,6 +4755,7 @@ export const data: Data = {
           illustrator: 'Koji Harada',
           flavor:
             'The Machine Eaters couldn\'t decide whether to name their new device "The Ginormulator," "The Biggificationizer," or simply "Mr. Huge."',
+          setName: 'DM10',
         },
       ],
       text: 'One of your creatures gets +4000 power until the end of the turn.',
@@ -4615,6 +4780,7 @@ export const data: Data = {
           id: '20/55',
           rarity: 'Rare',
           illustrator: 'Yarunoca',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Wild Veggies', 'Rainbow Phantom'],
@@ -4642,6 +4808,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             '"The masters of subtlety are at it again." â€”Craze Valkyrie, the Drastic',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy one of your opponent\'s creatures that has "blocker" and power 6000 or less.',
@@ -4667,6 +4834,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Taro Yamazaki',
           flavor: 'Its exoskeleton has an exoskeleton.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -4694,6 +4862,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'Struck with claws of fire, the earth wept tears of magma. A new champion erupted forth.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Melt Warrior'],
@@ -4721,6 +4890,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             "When the cataclysm struck, all the science of the Cyber Lords couldn't prevent the collapse of their underwater city.",
+          setName: 'DM02',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -4747,6 +4917,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             'The dead rose from their graves and began their slow march into the swamp. Only Argoz wondered who would feed his worms while he was away.',
+          setName: 'DM08',
         },
       ],
       text: 'Put a creature from your graveyard into your hand.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -4772,6 +4943,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"This is even more fun that Cosmic Tic-Tac-Toe!" â€” Pharzi, the Oracle',
+          setName: 'DM12',
         },
       ],
       text: "Your opponent chooses one of your shields. Look at it. If it's a spell, you may cast immediately for no cost. If it's not a spell or if you don't cast it, put it back where it was.",
@@ -4798,6 +4970,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             '"Time is circular. Yesterday is tomorrow. Last month is a week from Thursday. I have a headache." â€”Shtra',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -4825,6 +4998,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             "\"I'm flying. I'm flying! Whoo-hooo! I've never felt so free! I'm a breeze in the sky. I'm a dancer in the clouds. This is so amazing! Uh, how do I get down?\"",
+          setName: 'DM09',
         },
       ],
       text: "Choose one of your creatures in the battle zone. It can't be blocked this turn.",
@@ -4850,6 +5024,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Ryoya Yuki',
           flavor: 'He glows with the reflection of a million stars.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Rainbow Phantom'],
@@ -4877,6 +5052,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             '"Oh, man! I don\'t like being crushed or burned!" â€” Golden Wing Striker',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -4902,6 +5078,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Hold still! This is the only headache remedy I know. I promise, soon you won\'t be able to feel your head at all!"',
+          setName: 'DM08',
         },
       ],
       text: 'Your opponent chooses and discards 2 cards from his hand.',
@@ -4927,6 +5104,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Tsuu',
           flavor: '"Uh oh-I\'m erupting again."',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -4953,6 +5131,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Eiji Kaneda',
           flavor: '"Mortals are my crops. Their souls are my harvest."',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -4979,6 +5158,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Kou1',
           flavor: '"Time to get Drastic!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Initiate'],
@@ -5007,6 +5187,7 @@ export const data: Data = {
           flavor: 'Witness the power of the Dark!',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/d0/CreepingPlague.jpg/revision/latest?cb=20130119152146',
+          setName: 'DM01',
         },
       ],
       text: 'Whenever any of your creatures becomes blocked this turn, it gets "slayer" until the end of the turn. (When a creature that has "slayer" loses a battle, destroy the other creature.)',
@@ -5032,6 +5213,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             "There's nothing a Machine Eater enjoys more than a good game of Whack-a-Hulcus.",
+          setName: 'DM01',
         },
       ],
       text: "Destroy 1 of your opponent's creatures that has power 2000 or less.",
@@ -5055,6 +5237,7 @@ export const data: Data = {
           id: '79/110',
           rarity: 'Rare',
           illustrator: 'Hideaki Takamura',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nYour opponent chooses one of his creatures in the battle zone or a card in his mana zone and puts it into his graveyard.',
@@ -5078,6 +5261,7 @@ export const data: Data = {
           id: '25/55',
           rarity: 'Common',
           illustrator: 'Nottsuo',
+          setName: 'DM02',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy one of your opponent\'s creatures that has "blocker."',
@@ -5085,7 +5269,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'CrowWinger',
       cardFileName: 'CrowWinger.jpg',
       downloadUrl: {
@@ -5104,6 +5288,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             "The Dark Lords' presence in the Fiona Woods warped more than just the trees.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -5129,6 +5314,7 @@ export const data: Data = {
           id: 'S3/55',
           rarity: 'Super Rare',
           illustrator: 'Shukei',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Naga'],
@@ -5157,6 +5343,7 @@ export const data: Data = {
           illustrator: 'Yoko Tsukamoto',
           flavor:
             '"He speaks in riddles. Or gibberish. I can\'t tell." â€”Fighter Dual Fang',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -5183,6 +5370,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Masaki Hirooka',
           flavor: 'An infinite number of warriors in one.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Liquid People'],
@@ -5209,6 +5397,7 @@ export const data: Data = {
           id: '15/55',
           rarity: 'Uncommon',
           illustrator: 'Norikatsu Miyoshi',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Liquid People'],
@@ -5236,6 +5425,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/62/CrystalMemory.jpg/revision/latest?cb=20211020003908',
+          setName: 'DM01',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nSearch your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.',
@@ -5260,6 +5450,7 @@ export const data: Data = {
           id: 'S2/55',
           rarity: 'Super Rare',
           illustrator: 'Eiji Kaneda',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Liquid People'],
@@ -5287,6 +5478,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Seki',
           flavor: '"I don\'t like to play catch. I like to play throw."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Liquid People'],
@@ -5315,6 +5507,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"The spies I send into the Darkness realm get caught when their teeth chatter in fear. I think I\'ve solved the problem." â€”Kyuroro',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -5340,6 +5533,7 @@ export const data: Data = {
           id: '52/110',
           rarity: 'Common',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -5365,6 +5559,7 @@ export const data: Data = {
           id: '80/110',
           rarity: 'Uncommon',
           illustrator: 'Takesi Kuno',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -5392,6 +5587,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"You will meet your fate . . . as soon as I stop feeling so . . . dizzy. . . ."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Rainbow Phantom'],
@@ -5400,7 +5596,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'CyclonePanic',
       cardFileName: 'CyclonePanic.jpg',
       downloadUrl: {
@@ -5416,6 +5612,7 @@ export const data: Data = {
           id: '41/55',
           rarity: 'Uncommon',
           illustrator: 'Eiji Kaneda',
+          setName: 'DM05',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nEach player counts the cards in his hand, shuffles these cards into his deck, then draws that many cards.',
@@ -5442,6 +5639,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             '"Friend or foe? Dragonoid, Guardian, or Giant? They\'re all the same. They\'re all dinner."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Demon Command'],
@@ -5468,6 +5666,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"It is time for a new forest. It is time for the sproutlings. I\'ll go get the freaky golden head-statue thing we always use for that." â€”Fighter Dual Fang',
+          setName: 'DM09',
         },
       ],
       text: 'Choose a race. You may put any number of creatures of that race from your hand into your mana zone.',
@@ -5494,6 +5693,7 @@ export const data: Data = {
           illustrator: 'Jason',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/53/DarkClown.jpg/revision/latest?cb=20130401231536',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -5523,6 +5723,7 @@ export const data: Data = {
             "If you've ever thought there was something hiding in the dark, you were right.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c3/DarkRavenShadowofGrief.jpg/revision/latest?cb=20200218033700',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Ghost'],
@@ -5549,6 +5750,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/4f/DarkReversal.jpg/revision/latest?cb=20210316075424',
+          setName: 'DM01',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nReturn a creature from your graveyard to your hand.',
@@ -5575,6 +5777,7 @@ export const data: Data = {
           illustrator: 'Masateru Ikeda',
           flavor:
             'The forces of Darkness began their invasion by turning the Fiana Woods into a nice, comfortable realm of horror.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Demon Command'],
@@ -5601,6 +5804,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Why don\'t mortals embrace despair? All my ghoul friends really seem to enjoy it." â€”Ballom, Master of Death',
+          setName: 'DM04',
         },
       ],
       text: 'Put any number of cards from your mana zone into your graveyard. Then draw that many cards.',
@@ -5626,6 +5830,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Norikatsu Miyoshi',
           flavor: '"I refuse to be forgotten."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -5653,6 +5858,7 @@ export const data: Data = {
           illustrator: 'Hideaki Takamura',
           flavor:
             "That's not the sound of an earthquake. That's just the Dawn Giants snoring.",
+          setName: 'DM03',
         },
       ],
       subtypes: ['Giant'],
@@ -5681,6 +5887,7 @@ export const data: Data = {
           flavor: "A Dragonoid's true home is the battlefield.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/ce/DeadlyFighterBraidClaw.jpg/revision/latest?cb=20210210065616',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -5689,7 +5896,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'DeathCruzertheAnnihilator',
       cardFileName: 'DeathCruzertheAnnihilator.jpg',
       downloadUrl: {
@@ -5707,6 +5914,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Yoshio Sugiura',
           flavor: 'Its only friend is the empty echo of death.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Demon Command'],
@@ -5732,6 +5940,7 @@ export const data: Data = {
           id: 'S4/55',
           rarity: 'Super Rare',
           illustrator: 'Haccan',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Phoenix'],
@@ -5760,6 +5969,7 @@ export const data: Data = {
           flavor: 'Savor the taste of fear!',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c5/Death_Smoke.jpg/revision/latest?cb=20210316080748',
+          setName: 'DM01',
         },
         {
           set: 'DM-06 Stomp-A-Trons of Invincible Wrath',
@@ -5768,6 +5978,7 @@ export const data: Data = {
           illustrator: 'Dustmoss',
           flavor:
             '"Life is like this joke. It\'s very, very funny, and now it\'s over." â€”Trixo, Wicked Doll',
+          setName: 'DM06',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -5776,6 +5987,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             '"Tune in next week for more of the exciting adventures of Quixotic Hero Swine Snou-Oh, Never mind."',
+          setName: 'DM10',
         },
       ],
       text: "Destroy one of your opponent's untapped creatures.",
@@ -5803,6 +6015,7 @@ export const data: Data = {
           flavor: 'It devours all.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/11/DeathbladeBeetle.jpg/revision/latest?cb=20130113174855',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -5831,6 +6044,7 @@ export const data: Data = {
           flavor: 'The world is deafened by the roar of the deathliger.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/0/07/DeathligerLionofChaos.jpg/revision/latest?cb=20120422092255',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Demon Command'],
@@ -5858,6 +6072,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             'Anyone who looks inside the box finds the souls of everyone else who ever looked inside the box. (Guess what happens next....)',
+          setName: 'DM10',
         },
       ],
       subtypes: ["Pandora's Box"],
@@ -5883,6 +6098,7 @@ export const data: Data = {
           id: 'S10/110',
           rarity: 'Super Rare',
           illustrator: 'Toshiaki Takayama',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Spirit Quartz'],
@@ -5910,6 +6126,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             '"The only thing grosser than eating a mushroom is having a mushroom eat me." â€”Giliam the Tormentor',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Balloon Mushroom'],
@@ -5939,6 +6156,7 @@ export const data: Data = {
             'Flying is the greatest taboo of any race that has encountered the Guardians.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/44/Dianorkmoonlightguardian.jpg/revision/latest?cb=20130401232224',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Guardian'],
@@ -5963,6 +6181,7 @@ export const data: Data = {
           id: '1/55',
           rarity: 'Uncommon',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM02',
         },
       ],
       text: 'This turn, ignore any effects that would prevent your creatures from attacking your opponent. (For example, ignore summoning sickness and card effects that say "This creature can\'t attack" or "This creature can\'t attack players." Your creatures can\'t attack creatures this way.)',
@@ -5988,6 +6207,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
           flavor: '"Winter\'s coming early this year!"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Snow Faerie'],
@@ -6015,12 +6235,14 @@ export const data: Data = {
           illustrator: 'Jason',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/16/DimensionGate.jpg/revision/latest?cb=20210316075140',
+          setName: 'DM01',
         },
         {
           set: 'DM-06 Stomp-A-Trons of Invincible Wrath',
           id: '96/110',
           rarity: 'Common',
           illustrator: 'Jason',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nSearch your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.',
@@ -6047,6 +6269,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             'They think life is a joke, death is a joke, and mixing the two up is a really funny joke.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -6055,7 +6278,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'DivineRiptide',
       cardFileName: 'DivineRiptide.jpg',
       downloadUrl: {
@@ -6073,6 +6296,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             '"The Megapocalypse has arrived. It\'s a bit early, huh?" â€”Pokolul',
+          setName: 'DM05',
         },
       ],
       text: 'Each player returns all cards from his mana zone to his hand.',
@@ -6098,6 +6322,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
           flavor: "It doesn't bleed. It erupts.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -6126,6 +6351,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'With a raucous cry, the first Fire reinforcements reached the shore.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Armorloid'],
@@ -6151,6 +6377,7 @@ export const data: Data = {
           id: '102/110',
           rarity: 'Rare',
           illustrator: 'Hisashi Momose',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Ghost', 'Human'],
@@ -6180,6 +6407,7 @@ export const data: Data = {
             'Colony Beetles feed on the World Tree to build gigantic nests on their backs.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/ac/DomeShell.jpg/revision/latest?cb=20210210093520',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -6204,6 +6432,7 @@ export const data: Data = {
           id: '6/55',
           rarity: 'Uncommon',
           illustrator: 'Jason',
+          setName: 'DM08',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose one of your opponent's creatures in the battle zone and tap it. If it has Dragon in its race, add the top card of your deck to your shields face down.",
@@ -6228,6 +6457,7 @@ export const data: Data = {
           id: '49/55',
           rarity: 'Uncommon',
           illustrator: 'Norikatsu Miyoshi',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -6257,6 +6487,7 @@ export const data: Data = {
             'Draglides grow with their mounts. Their bond is their weapon.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/1d/Draglide.jpg/revision/latest?cb=20210210075541',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -6284,6 +6515,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             '"Avast, me mateys, and check out my new pirate dictionary! Arrrrr. Yo ho ho. Hmm, it\'s pretty short. Arrrrr!"',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Ghost'],
@@ -6310,6 +6542,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Yarunoca',
           flavor: 'It shares the outrage of the planet.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -6338,6 +6571,7 @@ export const data: Data = {
           illustrator: 'Yoshio Sugiura',
           flavor:
             '"He\'s doing more damage to the forest than the Parasite Worms! Are you sure he\'s on our side?" â€”Fighter Dual Fang',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Giant'],
@@ -6362,6 +6596,7 @@ export const data: Data = {
           id: '25/55',
           rarity: 'Uncommon',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nYou may destroy one of your darkness creatures. If you do, return a creature from your mana zone to your hand.',
@@ -6388,6 +6623,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             '"Since he was fed up with being classified as a UFO - an unidentified flying object - I advised Syrion to introduce himself to every living being on the planet. Now that he\'s an IFO - an identified flying object - he gets invited to a lot more parties." â€” Wise Starnoid, Avatar of Hope',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Gladiator', 'Cyber Lord'],
@@ -6415,6 +6651,7 @@ export const data: Data = {
           illustrator: 'Yusaku Nakaaki',
           flavor:
             "The first Chimeras to invade the Fiana Woods didn't expect an attack from the forest itself.",
+          setName: 'DM02',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -6440,6 +6677,7 @@ export const data: Data = {
           id: 'S1/110',
           rarity: 'Super Rare',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Angel Command'],
@@ -6467,6 +6705,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             '"If you think I\'m good at this, watch me play video games!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -6494,6 +6733,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/15/EmeraldGrass.jpg/revision/latest?cb=20210210004919',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -6519,6 +6759,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Sansyu',
           flavor: '"Effective? Yes. Subtle? Not so much." â€”Zaltan',
+          setName: 'DM11',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nDraw up to 2 cards. Then discard a card from your hand.',
@@ -6544,6 +6785,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Masaki Hirooka',
           flavor: 'Half supercomputer, half supervillain, all superfreak.',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -6570,6 +6812,7 @@ export const data: Data = {
           id: 'S2/55',
           rarity: 'Super Rare',
           illustrator: 'Toshiaki Takayama',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -6579,7 +6822,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'EnchantedSoil',
       cardFileName: 'EnchantedSoil.jpg',
       downloadUrl: {
@@ -6597,6 +6840,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Souls don\'t truly depart this world. They merely rest for a time." â€”Fighter Dual Fang',
+          setName: 'DM05',
         },
       ],
       text: 'Put up to 2 creatures from your graveyard into your mana zone.',
@@ -6621,6 +6865,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Shishizaru',
           flavor: '"Prepare the lava injection!" â€”Sky Crusher, the Agitator',
+          setName: 'DM07',
         },
       ],
       text: 'One of your creatures gets +2000 power until the end of the turn.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -6646,6 +6891,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Some computer programs attack our enemies. Some defend our cities. And some-the most perfect of all-just write more computer programs." â€”Emeral',
+          setName: 'DM06',
         },
       ],
       text: 'Draw 2 cards.',
@@ -6671,6 +6917,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akifumi Yamamoto',
           flavor: '"I caught a jumbo jet in my web once. It was mighty tasty."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Soltrooper'],
@@ -6698,6 +6945,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             '"Perfect. Fine. No problem. It\'s a piece of cake to disassemble these Water machines."',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Machine Eater'],
@@ -6724,6 +6972,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             '"The worst news can turn out to be the best news. Once you\'re at the bottom of the waterfall, there\'s nowhere you can fall from there." â€” Meloppe',
+          setName: 'DM12',
         },
       ],
       text: 'Discard any number of cards from your hand. Then draw that many cards.',
@@ -6750,6 +6999,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             'When the Silver Beards fell, mystical elves came to rescue them.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -6776,6 +7026,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Nottsuo',
           flavor: 'Wisdom is its sacred quest.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Initiate', 'Liquid People'],
@@ -6802,6 +7053,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Seki',
           flavor: 'The glow of the elementals reaches out even to the stars.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Angel Command'],
@@ -6828,6 +7080,7 @@ export const data: Data = {
           flavor:
             "\"The expression is 'reach for the stars,' not 'reach for the mysterious ball of crackling electricity.'\" â€”Mighty Bandit",
           illustrator: 'Kou1',
+          setName: 'DM08',
         },
       ],
       text: 'Draw a card.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -6853,6 +7106,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Nottsuo',
           flavor: '"It\'s good to be bad!"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -6880,6 +7134,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Toshiaki Takayama',
           flavor: '"My favorite color is burnt, burnt, burnt sienna."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Armorloid'],
@@ -6906,6 +7161,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'D-Suzuki',
           flavor: '"Eww! Now that\'s disgusting." â€” Mongrel Man',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -6933,6 +7189,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"I used to have a real problem with exploding. But now, thanks to a balanced diet and regular exercise, I\'ve cut my explosion rate to twice a day. I can\'t take all the credit, though. The support of my wonderful family has finally let me lead a normal"-BOOM!',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Human'],
@@ -6961,6 +7218,7 @@ export const data: Data = {
             'Dragonoid fighters never retreat. They believe that a heroic fighter will become a Dragon in his next life.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/aa/ExplosiveFighterUcarn.jpg/revision/latest?cb=20210907142528',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -6988,6 +7246,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"There are things in the world worse than Zalmez. I can\'t think of many, though." â€”Tide Patroller',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armorloid'],
@@ -7015,6 +7274,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"For thousands of years, our wisest scholars grappled with the question, \'How many tentacles is too many?\' Turns out the answer is 5." â€” Uncanny Turnip',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -7040,6 +7300,7 @@ export const data: Data = {
           id: '97/110',
           rarity: 'Rare',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor', 'Colony Beetle'],
@@ -7069,6 +7330,7 @@ export const data: Data = {
             'A school of teeny, tiny points of light. Stopping them all is impossible.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/db/FaerieChild.jpg/revision/latest?cb=20210521082721',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -7093,6 +7355,7 @@ export const data: Data = {
           id: '98/110',
           rarity: 'Common',
           illustrator: 'Tomofumi Ogasawara',
+          setName: 'DM06',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -7101,6 +7364,7 @@ export const data: Data = {
           illustrator: 'Miya',
           flavor:
             'The Faeries took the shattered rainbow in stride. To them, magic is magic.',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nPut the top card of your deck into your mana zone.',
@@ -7126,6 +7390,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Ken Sugawara',
           flavor: "It's not an eel. It's not an illusion. It's an eelusion.",
+          setName: 'DM11',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -7154,6 +7419,7 @@ export const data: Data = {
           flavor: '"Any final words?"',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/6f/FatalAttackerHorvath.jpg/revision/latest?cb=20210210075548',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Human'],
@@ -7183,6 +7449,7 @@ export const data: Data = {
             'The Beast Folk are gifted with huge muscles to withstand the tremendous gravity of the World Tree.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/4b/FearFang.jpg/revision/latest?cb=20210210093525',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -7209,6 +7476,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"If it\'s true that you are what you eat, it looks like somebody\'s been chowing down on way too many flamingos." â€”Kyuroro',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -7235,6 +7503,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             'Though the shockwaves freaked out the rest of the planet, the Rainbow Phantoms loved the color scheme.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Rainbow Phantom'],
@@ -7261,6 +7530,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Ken Sugawara',
           flavor: '"We\'re not crazy. . . we\'re nuts!!!"',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -7286,6 +7556,7 @@ export const data: Data = {
           id: 'S5/55',
           rarity: 'Super Rare',
           illustrator: 'Ryoya Yuki',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -7316,6 +7587,7 @@ export const data: Data = {
             'Those who leave battle last are the ones who savor victory the longest.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/5c/FireSweeperBurningHellion.jpg/revision/latest?cb=20210210075553',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -7342,6 +7614,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             '"The forces of Darkness conquered the Fiona Woods but never tamed it. Its twisted horrors of nature cost Ballom his life. Let me convince some friends to do a little gardening." â€”Chaotic Skyterror',
+          setName: 'DM09',
         },
       ],
       text: 'Choose one of your creatures in the battle zone. Whenever that creature wins a battle this turn, untap it.',
@@ -7368,6 +7641,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             'Step 1: Blast everything in sight.\nStep 2: If necessary, think of a Step 2.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Armorloid'],
@@ -7393,6 +7667,7 @@ export const data: Data = {
           id: '39/55',
           rarity: 'Rare',
           illustrator: 'Dustmoss',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -7420,6 +7695,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'Spydroids spin threads of light that connect the stars into constellations - but only the pure of heart can see them.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Soltrooper'],
@@ -7445,6 +7721,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Atsushi Kawasaki',
           flavor: '"Open up freshwater valve 23D. I\'m thirsty."',
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nReturn a card from your mana zone to your hand.',
@@ -7471,6 +7748,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'The rainbow shards that sank into the sea were poisonous . . . but delicious.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -7498,6 +7776,7 @@ export const data: Data = {
           illustrator: 'Dustmoss',
           flavor:
             'The shining steel oracles choose to stay out of the way and simply observe the invasion...for now.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -7525,6 +7804,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"The personality of an avatar is a reflection of the concept he represents. For example, the avatar of war is straightforward and difficult to control."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -7550,6 +7830,7 @@ export const data: Data = {
           id: '19/110',
           rarity: 'Rare',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor', 'Guardian'],
@@ -7575,6 +7856,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Ippei Soeda',
           flavor: '"At least the ride up is fun." â€”Engineer Kipo',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nEach of your opponent\'s creatures gets "This creature attacks if able" until the start of your next turn.',
@@ -7603,6 +7885,7 @@ export const data: Data = {
             'With its deadly sting and crushing jaws, it makes the Horned Beasts cower.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/7/76/ForestHornet.jpg/revision/latest?cb=20210210093528',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -7629,6 +7912,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             "The Cyber Lords are racing the Dragonoids to be the first to drill to the planet's core.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -7657,6 +7941,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             '"Wow! I can\'t wait to disassemble this!" â€”Nomad Hero Gigio',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -7684,6 +7969,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             '"Do you know how hard it is to find feathers underwater? Very few birds fly down here!"',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Merfolk'],
@@ -7709,6 +7995,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akira Hamada',
           flavor: '"Freeze \'em and squeeze \'em!" â€”Garabon, the Glider',
+          setName: 'DM07',
         },
       ],
       text: "Choose one of your opponent's water or darkness creatures in the battle zone. Your opponent puts that creature into his mana zone.",
@@ -7737,6 +8024,7 @@ export const data: Data = {
             '"Vizier of Air, arise. Your fingers are sacred swords." â€”Hanusa, Radiance Elemental',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/f/f1/Freivizierofair.jpg/revision/latest?cb=20120420123858',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Initiate'],
@@ -7764,6 +8052,7 @@ export const data: Data = {
           illustrator: 'Ittoku',
           flavor:
             '"The young get older. The old get older. And everyone forgets my birthday."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Ghost'],
@@ -7790,6 +8079,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Sansyu',
           flavor: "Eternity's produce section is always well-stocked.",
+          setName: 'DM07',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nWhenever any of your creatures would be destroyed this turn, put it into your mana zone instead.',
@@ -7816,6 +8106,7 @@ export const data: Data = {
           illustrator: 'Tomofumi Ogasawara',
           flavor:
             '"The only smoke screen coming from Ballom will be the one billowing off of his smoldering carcass."',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -7840,6 +8131,7 @@ export const data: Data = {
           id: '9/55',
           rarity: 'Rare',
           illustrator: 'Norikatsu Miyoshi',
+          setName: 'DM04',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nUntil the start of your next turn, each of your creatures in the battle zone gets "Blocker (Whenever an opponent\'s creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle)."',
@@ -7865,6 +8157,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Taro Yamazaki',
           flavor: '"Let\'s boogie!"',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Merfolk'],
@@ -7891,6 +8184,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"See what happens when you take your vitamins?" â€”Pyrofighter Magnus',
+          setName: 'DM08',
         },
       ],
       text: 'Until the end of the turn, each of your Dragonoids in the battle zone is an Armored Dragon in addition to its other races, gets +4000 power, and has "double breaker (This creature breaks 2 shields)."',
@@ -7916,6 +8210,7 @@ export const data: Data = {
           illustrator: 'Dreamwave',
           flavor:
             '"Look on the bright side. Next time a fortune-teller predicts your future, you can ask for a discount." â€”Schuka, Duke of Amnesia',
+          setName: 'DM06',
         },
       ],
       text: "Search your opponent's deck. Take up to 2 cards from his deck and put them into his graveyard. Then your opponent shuffles his deck.",
@@ -7942,6 +8237,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             "\"My minions! Here is tomorrow's schedule. 7-8: Morning workout. 8-9: Pain. 9-10: 'Ripping Out Spines' seminar. 10-11: Pain. 11-12: Fright practice. 12-1: Lunch. 1-2: Pain. 2-3: Arts & crafts. 3-4: Pain. 4-5: More pain. 5-6: Excruciating, unbearable pain. Sleep well!\"",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -7967,6 +8263,7 @@ export const data: Data = {
           id: '29/55',
           rarity: 'Uncommon',
           illustrator: 'Dai',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -7993,6 +8290,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
           flavor: '"I love the smell of a fresh apocalypse!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Demon Command'],
@@ -8019,6 +8317,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Syuichi Obata',
           flavor: 'No fear, no mercy, and nothing left to lose.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Ghost', 'Human'],
@@ -8045,6 +8344,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Jason',
           flavor: 'Let the skies burn.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -8053,7 +8353,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'GalliaZohlIronGuardianQ',
       cardFileName: 'GalliaZohlIronGuardianQ.jpg',
       downloadUrl: {
@@ -8072,6 +8372,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'My true home is not in the Light realm. It is with the Survivors.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Guardian'],
@@ -8099,6 +8400,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             'The first Liquid People troops to land on the shore evaporated as soon as they touched the ground.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -8126,6 +8428,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             'The holes it digs its friends out of are the holes it buries its enemies in.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Demon Command'],
@@ -8152,6 +8455,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Katsuya',
           flavor: 'He has a short fuse.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -8179,6 +8483,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             '"It can staple trees, rocks, tanks, skyscrapers, diamonds, battleships, missles, cows, bridges, mutant cows, other staplers, and mutant zombie cows. Just about everything but paper, really." â€” Armored Raider Gandaval',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -8205,6 +8510,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Sansyu',
           flavor: '"Am I macho enough yet?"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Human'],
@@ -8231,6 +8537,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Hideaki Takamura',
           flavor: '"Yaaaurgh! Who\'s up for a snowball fight?"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Snow Faerie'],
@@ -8258,6 +8565,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             'To cope with their unexpected setbacks, the Cyber Lords began recruiting and modifying even the most resistant inhabitants of the sea.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -8285,6 +8593,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Elementals can\'t stand being on the ground instead of in the sky. So when they start a war, they make sure it ends quickly."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Angel Command'],
@@ -8311,6 +8620,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Nottsuo',
           flavor: 'The more you quiver, the more it smiles.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -8339,6 +8649,7 @@ export const data: Data = {
           flavor: 'Part chopper, part chomper.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/cc/GatlingSkyterror.jpg/revision/latest?cb=20130114141911',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -8366,6 +8677,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             'As the smoke cleared, the strike force began to cheer . . . but their jaws quickly dropped in disbelief, leaving the sounds of victory to die in the smoldering air. The barrage had destroyed everything . . . except the Dragon.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -8393,6 +8705,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             '"My enemies never know what I\'ll do next. And neither do I!"',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -8420,6 +8733,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             '"Be careful when you gaze into the darkness. It might gaze back." â€”Yuliana, Channeler of Suns',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Ghost'],
@@ -8447,6 +8761,7 @@ export const data: Data = {
           illustrator: 'Hideaki Takamura',
           flavor:
             'That day, the Dark Lords decided to carry out their long-awaited invasion of the world.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -8473,6 +8788,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Eiji Kaneda',
           flavor: '"A broken sword becomes an even sharper weapon."',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Rainbow Phantom'],
@@ -8500,6 +8816,7 @@ export const data: Data = {
           illustrator: 'Imo Kajii',
           flavor:
             '"The strings that make it dance come from deep within the ground. Wait . . . that doesn\'t make any sense. . . ." â€”Tangle Fist',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -8526,6 +8843,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             "If you're not getting nightmares, you're not trying hard enough.",
+          setName: 'DM03',
         },
       ],
       text: 'Choose any number of your shields and put them into your hand. You can\'t use the "shield trigger" abilities of those shields.',
@@ -8551,6 +8869,7 @@ export const data: Data = {
           illustrator: 'Soushi Hirose',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/3/39/GhostTouch.jpg/revision/latest?cb=20210210031750',
+          setName: 'DM01',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nYour opponent discards a card at random from his hand.',
@@ -8576,6 +8895,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Nakagawa',
           flavor: '"It comes in handy." â€” Necrodragon Jagraveen',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Chimera'],
@@ -8603,6 +8923,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9c/Gigaberos.jpg/revision/latest?cb=20120421182452',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Chimera'],
@@ -8630,6 +8951,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             "It looks like a hideous monster, but there's really a sweet little girl deep down inside. In its stomach.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Chimera'],
@@ -8655,6 +8977,7 @@ export const data: Data = {
           id: '28/55',
           rarity: 'Rare',
           illustrator: 'Youichi Kai',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Chimera'],
@@ -8680,6 +9003,7 @@ export const data: Data = {
           id: '30/55',
           rarity: 'Common',
           illustrator: 'Hikaru Ikusa',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Chimera'],
@@ -8709,6 +9033,7 @@ export const data: Data = {
             'By assembling parts of different magical beasts, the Dark Lords created a nightmare.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/db/Gigagiele.jpg/revision/latest?cb=20210210031754',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Chimera'],
@@ -8734,6 +9059,7 @@ export const data: Data = {
           id: '56/110',
           rarity: 'Uncommon',
           illustrator: 'Eiji Kaneda',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Chimera'],
@@ -8742,7 +9068,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'Gigakail',
       cardFileName: 'Gigakail.jpg',
       downloadUrl: {
@@ -8761,6 +9087,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             "What it was built out of isn't nearly as disturbing as what was done with the leftovers.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Chimera'],
@@ -8769,7 +9096,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'GigalingQ',
       cardFileName: 'GigalingQ.jpg',
       downloadUrl: {
@@ -8788,6 +9115,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             'Did the Megapocalypse create the Survivors, or did it just set them free?',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Chimera'],
@@ -8814,6 +9142,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Katsuya',
           flavor: '"But I don\'t wanna be a tree!" â€”Fear Fang',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -8841,6 +9170,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Jason',
           flavor: 'Is it looking for new friends or new limbs?',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Chimera'],
@@ -8867,6 +9197,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'sgr',
           flavor: 'It used to be a panther, a raven, a goat, and alive.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Chimera'],
@@ -8894,6 +9225,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             '"I like this planet. It\'s full of horrible little surprises. I was planning to destroy it in a fiery cataclysm of death, but maybe I\'ll do a little sightseeing first." â€” Death Phoenix, Avatar of Doom',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Chimera', 'Fire Bird'],
@@ -8921,6 +9253,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             '"Life is not the only fragile, random thing on earth. Look at death, for example." â€” Cruel Naga, Avatar of Fate',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Chimera'],
@@ -8949,6 +9282,7 @@ export const data: Data = {
           flavor: 'There is no rest in the Dark Realm, even after death.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/81/Gigargon.jpg/revision/latest?cb=20120221223059',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Chimera'],
@@ -8976,6 +9310,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'Sometimes it has starting contests with itself. It never wins.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Chimera'],
@@ -9003,6 +9338,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'Even nasty, rampaging invaders get a little homesick sometimes.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Chimera'],
@@ -9030,6 +9366,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"The specimen is particularly ruthless. Tests have shown that it has no \'ruth\' whatsoever." â€” Meloppe',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Chimera'],
@@ -9038,7 +9375,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'Gigazoul',
       cardFileName: 'Gigazoul.jpg',
       downloadUrl: {
@@ -9057,6 +9394,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Perhaps I went a little too far with the experiment...." â€”Ballom, Master of Death',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Chimera'],
@@ -9082,6 +9420,7 @@ export const data: Data = {
           id: '39/55',
           rarity: 'Uncommon',
           illustrator: 'Haccan',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -9109,6 +9448,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             'Peasant or king, it cares not who its next victim is. It cares only that its victim is warm...and very, very scared.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Demon Command'],
@@ -9136,6 +9476,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             'Amidst the devastation, there were centers of serene calm. Serene, hypercharged, butt-kicking calm.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Initiate'],
@@ -9163,6 +9504,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Nottsuo',
           flavor: '"Quick! Look over there!"',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Guardian'],
@@ -9172,7 +9514,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'GlorySnow',
       cardFileName: 'GlorySnow.jpg',
       downloadUrl: {
@@ -9188,6 +9530,7 @@ export const data: Data = {
           id: '9/55',
           rarity: 'Rare',
           illustrator: 'Sansyu',
+          setName: 'DM05',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nIf your opponent has more cards in his mana zone than you have in yours, put the top 2 cards of your deck into your mana zone.',
@@ -9213,6 +9556,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Sansyu',
           flavor: 'His mother was right. His face did freeze like that.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Demon Command'],
@@ -9241,6 +9585,7 @@ export const data: Data = {
           flavor: 'Hawk warriors hunt faster than the wind.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/b/b3/GoldenWingStriker.jpg/revision/latest?cb=20210210093533',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -9268,6 +9613,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             'In its chaotic wisdom, the shattered rainbow united the power of those who would destroy the forest with those who would save it.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Human', 'Beast Folk'],
@@ -9297,6 +9643,7 @@ export const data: Data = {
             'Those who defile the Sky Castle are doomed, for they shall know the wrath of the Guardians.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/e9/Grangurespaceguardian.jpg/revision/latest?cb=20120923123513',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Guardian'],
@@ -9324,6 +9671,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             '"I\'m quite fully protected from telepathic spies. Indeed, that\'s what my spiffy hat is for. Wha-hai!!!" â€”Quixotic Hero Swine Snout',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -9350,6 +9698,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Yoko Tsukamoto',
           flavor: 'Its unvenom can unkill an unvictim in thirty seconds flat.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor', 'Parasite Worm'],
@@ -9376,6 +9725,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Nottsuo',
           flavor: "It's the thing that goes squish in the night.",
+          setName: 'DM02',
         },
       ],
       subtypes: ['Ghost'],
@@ -9403,6 +9753,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'Those fools in the clouds had better learn to like eternal midnight.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -9430,6 +9781,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "To a Gregorian worm, the world falls into two categories: things it can eat, and . . . Well, so far there's just the one category.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -9457,6 +9809,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             '"Quit being dead. Your lifetime contract with Ballom hasn\'t expired yet."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Ghost'],
@@ -9484,6 +9837,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"That thing looks like it\'s eating its own face!" â€”Mini Titan Gett',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -9510,6 +9864,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Evil has a healthy appetite. Death never stops stuffing its face. But nothing-nothing-is hungrier than hunger itself." â€”Stallob, the Lifequasher',
+          setName: 'DM09',
         },
       ],
       text: 'Your opponent chooses one of his creatures in the battle zone or one of his shields and puts it into his graveyard.',
@@ -9535,6 +9890,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Sansyu',
           flavor: 'It outraces shooting stars.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Guardian'],
@@ -9562,6 +9918,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             'From the rotting trees of the Fiana Woods, a new horror oozes forth.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -9590,6 +9947,7 @@ export const data: Data = {
             "The sky was scorched by Dragons' fire, and the earth gouged by elementals' rays. The battle raged for seven nights and seven days.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/ab/HanusaRadianceElemental.jpg/revision/latest?cb=20130112043220',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Angel Command'],
@@ -9617,6 +9975,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             'The Dragons used to love peaceful moonlight flights?but not anymore.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Moon'],
@@ -9644,6 +10003,7 @@ export const data: Data = {
           illustrator: 'Tsuu',
           flavor:
             "All life came from the sea. Now the sea's coming to take it back.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -9671,6 +10031,7 @@ export const data: Data = {
           illustrator: 'Nakagawa',
           flavor:
             '"Hrmph! The situation didn\'t get hazardous until it hopped here." â€”Scowling Tomato',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -9697,6 +10058,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Hisashi Momose',
           flavor: '"Darling! I got you some roses!"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -9722,6 +10084,7 @@ export const data: Data = {
           id: 'S5/55',
           rarity: 'Super Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Giant'],
@@ -9749,6 +10112,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             '"I sail the frozen seas. I ride the glacial breeze. I sing yo-ho and a yo-ho-ho. Oh no-here come the trees!"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Snow Faerie'],
@@ -9774,6 +10138,7 @@ export const data: Data = {
           id: '2/55',
           rarity: 'Very Rare',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -9800,6 +10165,7 @@ export const data: Data = {
           illustrator: 'Koji Harada',
           flavor:
             '"Brace yourselves! It\'s a Class 5 Metaphor!" â€”Shaman Broccoli',
+          setName: 'DM11',
         },
       ],
       text: "(This spell is put into your mana zone tapped.)\nChoose one of your opponent's non-evolution creatures in the battle zone and return it to his hand. Then he discards a card at random from his hand.",
@@ -9825,6 +10191,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Sansyu',
           flavor: '"Change my diaper?! Dude, I\'m 47 years old."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -9851,6 +10218,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/d0/Holy_Awe.jpg/revision/latest?cb=20210210004924',
+          setName: 'DM01',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nTap all your opponent's creatures in the battle zone.",
@@ -9876,6 +10244,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             '"How do you know you won\'t like excruciating pain? Have you ever tried it?" â€”Crath Lade, Merciless King',
+          setName: 'DM07',
         },
       ],
       text: "Destroy one of your opponent's creatures.",
@@ -9883,7 +10252,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'HornedMutant',
       cardFileName: 'HornedMutant.jpg',
       downloadUrl: {
@@ -9902,6 +10271,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             'After pulling out its own horns to use as weapons, it can grow a new pair in less than a day.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Hedrian'],
@@ -9929,6 +10299,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'Worms never refuse a good meal. They never refuse a bad meal either.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -9956,6 +10327,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             'Mixed in with its grains of blood-red sand are the tiniest shards of the shattered rainbow.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Hedrian'],
@@ -9981,6 +10353,7 @@ export const data: Data = {
           id: '22/55',
           rarity: 'Uncommon',
           illustrator: 'Seki',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -10010,6 +10383,7 @@ export const data: Data = {
             'It lies in wait, hidden in coral reefs, lashing out ferociously when it senses prey.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/e2/HunterFish.jpg/revision/latest?cb=20210210021530',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Fish'],
@@ -10036,6 +10410,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Hisashi Momose',
           flavor: '"That is disgusting on so many levels." â€”Emeral',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -10063,6 +10438,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'Its merest movement changes the landscape. Its smallest step crushes mountains.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -10090,6 +10466,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             '"Come on, you slowpokes! Next thing I know, you\'ll be putting down roots!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -10114,6 +10491,7 @@ export const data: Data = {
           id: '23/55',
           rarity: 'Rare',
           illustrator: 'Youichi Kai',
+          setName: 'DM04',
         },
       ],
       text: "For each light creature you have in the battle zone, you may choose a card in your opponent's mana zone and return it to his hand.\nFor each darkness creature you have in the battle zone, you may choose one of your opponent's creatures in the battle zone and return it to his hand.",
@@ -10138,6 +10516,7 @@ export const data: Data = {
           id: '17/55',
           rarity: 'Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Cyber Lord', 'Hedrian'],
@@ -10166,6 +10545,7 @@ export const data: Data = {
           illustrator: 'Miya',
           flavor:
             '"It\'s amazing - it\'s faster than the speed of time!" â€” Soul Phoenix, Avatar of Unity',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Armorloid'],
@@ -10193,6 +10573,7 @@ export const data: Data = {
           illustrator: 'Youichi Kai',
           flavor:
             'Using the twelve forbidden programs, the Cyber Lords created the elite Liquid People assault troops.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -10220,6 +10601,7 @@ export const data: Data = {
           illustrator: 'Yoko Tsukamoto',
           flavor:
             '"Of course it\'s hot headed! The coolest its head ever gets is 800 degrees!" â€”Tajimal, Vizier of Aqua',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Melt Warrior'],
@@ -10247,6 +10629,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             '"I\'m having a bad day. Before Trox stuffed me into a microwave this afternoon, I used to be a Snow Faerie."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Ghost'],
@@ -10276,6 +10659,7 @@ export const data: Data = {
             '"Vizier of Bullets, arise. Your will is an arrow that never misses the target." â€”Hanusa, Radiance Elemental',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/f/fe/Ierevizierofbullets.jpg/revision/latest?cb=20210210003758',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Initiate'],
@@ -10300,6 +10684,7 @@ export const data: Data = {
           id: '17/110',
           rarity: 'Rare',
           illustrator: 'Katsuhiko Kojoh',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Soltrooper'],
@@ -10326,6 +10711,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Haccan',
           flavor: '"Watch closely for the end of history." â€”Emperor Quazla',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -10355,6 +10741,7 @@ export const data: Data = {
             "The Cyber Lords' devotion to beauty is so extreme, they even designed their warrior race to have a pleasant appearance.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/de/IllusionaryMerfolk.jpg/revision/latest?cb=20210521082727',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -10382,6 +10769,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"We rise from the shadow of the Fiona Woods. We rise to exact our well-earned revenge. We rise to-oh, man, did Sluppo\'s head pop again? Great. Way to ruin my dramatic speech, Sluppo."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -10410,6 +10798,7 @@ export const data: Data = {
             '"You see? The one who wins is the one who has the bigger weapon."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/a3/ImmortalBaronVorg.jpg/revision/latest?cb=20210210075557',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Human'],
@@ -10435,6 +10824,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"The transdimensional warp portals are operational! I\'ll never have to drive to the laundromat again!" â€”Sopian',
+          setName: 'DM09',
         },
       ],
       text: "Choose a race. Creatures of that race can't be blocked this turn.",
@@ -10460,6 +10850,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             '"By the power of all that is evil, I command you to look over there! Heh, heh, heh. Made you look."',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nChoose one of your opponent\'s creatures in the battle zone. It gets "this creature attacks if able" until the start of your next turn.',
@@ -10486,6 +10877,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             'His soul is so pure that anywhere he wanders accepts him as a native son. His infinite destinies lie just over the horizon.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -10511,6 +10903,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Dreamwave',
           flavor: "Every soul has a price-and today they're on sale!",
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy any number of your creatures. Then draw that many cards.',
@@ -10536,6 +10929,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"After the latest Nature victories in the Fiona Woods, Ballom decided to host peace talks at the sacred Xhalmic Crater. The stadium filled with Nature and Light representatives, but Ballom, Trox and Daidalos never showed. As if on cue, the crater started belching toxic gas..."',
+          setName: 'DM06',
         },
       ],
       text: "Destroy all your opponent's creatures.",
@@ -10561,6 +10955,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             "The Fire army has enough firepower to lay waste to a planet-but even that isn't enough to bring down the wall of Light.",
+          setName: 'DM06',
         },
       ],
       text: 'Add up to 3 cards from the top of your deck to your shields face down.',
@@ -10586,6 +10981,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             '"The brutal forces of Light leveled the capital of the Fire realm. But deep in the mountains, the Fire doomsday weapon waits to take revenge."',
+          setName: 'DM06',
         },
       ],
       text: "Choose up to 3 of your opponent's shields and put them into his graveyard.",
@@ -10611,6 +11007,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             '"The Acashic Database holds the secrets of the universe. After centuries of searching, the Cyber Lords have at last found a clue to deciphering it."',
+          setName: 'DM06',
         },
       ],
       text: 'Search your deck. You may take any number of cards from your deck, show those cards to your opponent, and put them into your hand. Then shuffle your deck.',
@@ -10636,6 +11033,7 @@ export const data: Data = {
           illustrator: 'Hisashi Momose',
           flavor:
             'The roots of the World Tree reach into the hearts of all who cherish life.',
+          setName: 'DM06',
         },
       ],
       text: 'Each of your creatures in the battle zone gets +8000 power and "triple breaker" until the end of the turn. (A creature that has "triple breaker" breaks 3 shields.)',
@@ -10662,6 +11060,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/df/IocantTheOracle.jpg/revision/latest?cb=20210210011431',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -10689,6 +11088,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             'All it leaves in its wake are craters, pools of motor oil, and rusty gears.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -10717,6 +11117,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             'Has it conquered death, or has it just replaced it with something worse?',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Ghost'],
@@ -10745,6 +11146,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             'Its inner lining is made of fear . . . and velvet . . . but mostly fear.',
+          setName: 'DM11',
         },
       ],
       subtypes: ["Pandora's Box"],
@@ -10753,7 +11155,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'JewelSpider',
       cardFileName: 'JewelSpider.jpg',
       downloadUrl: {
@@ -10772,6 +11174,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             'It climbs webs, walls, trees-anything and everything-in search of warm blood.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -10799,6 +11202,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             "It never stops moving?but no one knows whether that's because it loves to dance or because if it ever sat still it would immediately tip over.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -10824,6 +11228,7 @@ export const data: Data = {
           id: '9/55',
           rarity: 'Common',
           illustrator: 'Katsuhiko Kojoh',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Guardian'],
@@ -10851,6 +11256,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             'After a humiliating defeat under the hooves of the Nature hordes, Ballom started to play with Dolls.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -10876,6 +11282,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             "Sky Crusher's army couldn't decide which was worse-when the forbidding stone tablets rose up, or when the forbidding stone tablets fell over.",
+          setName: 'DM07',
         },
       ],
       text: 'Tap all darkness creatures in the battle zone, or tap all fire creatures in the battle zone.',
@@ -10900,6 +11307,7 @@ export const data: Data = {
           id: '5/55',
           rarity: 'Very Rare',
           illustrator: 'Eiji Kaneda',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Snow Faerie'],
@@ -10927,6 +11335,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             "Some glyphs express ancient wisdom. Some express rude things about the Dragons' mothers.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -10954,6 +11363,7 @@ export const data: Data = {
           illustrator: 'Miya',
           flavor:
             '"Arise, Vizier of Eternity. Your aura is the poetry of time." â€”Hanusa, Radiance Elemental',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Initiate'],
@@ -10981,6 +11391,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             'With these chainsaws, shredding a forest is easy. But eating a steak is hard.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Armorloid'],
@@ -11008,6 +11419,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             "The Gladiators' only job is to study the science of war. They like their job.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Gladiator'],
@@ -11034,6 +11446,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Yarunoca',
           flavor: 'How can you sneak up on something covered with eyes?',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -11061,6 +11474,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           flavor:
             'Why do light and dark fight as they do? The more friends you have, the more birthday presents you get!',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -11088,6 +11502,7 @@ export const data: Data = {
           illustrator: 'Vai',
           flavor:
             '"Even I\'m scared of that thing." â€”Gajirabute, Vile Centurion',
+          setName: 'DM10',
         },
       ],
       subtypes: ["Pandora's Box"],
@@ -11113,6 +11528,7 @@ export const data: Data = {
           id: '20/55',
           rarity: 'Common',
           illustrator: 'Iron Pot',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -11140,6 +11556,7 @@ export const data: Data = {
           illustrator: 'sgr',
           flavor:
             'Kilstine led the Cooperative Assault Force across the clouds. The hunt for the Avatars had begun.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Angel Command'],
@@ -11166,6 +11583,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Dustmoss',
           flavor: 'He drifts along the currents of war.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11191,6 +11609,7 @@ export const data: Data = {
           id: '2/55',
           rarity: 'Very Rare',
           illustrator: 'Ryoya Yuki',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11220,6 +11639,7 @@ export const data: Data = {
             'Leviathans mature slowly, eventually growing to become the largest creatures in the world.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/ce/KingCoral.jpg/revision/latest?cb=20210210020551',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11249,6 +11669,7 @@ export const data: Data = {
             'Leviathans are just like storms. All you can do is wait until they pass.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/f/ff/KingDepthcon.jpg/revision/latest?cb=20120815080347',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11257,7 +11678,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'KingMazelan',
       cardFileName: 'KingMazelan.jpg',
       downloadUrl: {
@@ -11276,6 +11697,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             "It patrols the Cyber Lords' new undersea city. In exchange, it gets to eat any intruders it finds.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11303,6 +11725,7 @@ export const data: Data = {
           illustrator: 'Tomofumi Ogasawara',
           flavor:
             'Stopping at nothing in their quest for victory, the Cyber Lords transformed even the largest sea creatures into weapons.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11330,6 +11753,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             'A swarm of fish surround it, hoping to feed on its leftovers.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11356,6 +11780,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
           flavor: 'The Merfolk fear, despise, and respect the Leviathans.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11383,6 +11808,7 @@ export const data: Data = {
           illustrator: 'Yusaku Nakaaki',
           flavor:
             '"I caught five fishermen today. But you should have seen the one that got away!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11411,6 +11837,7 @@ export const data: Data = {
           flavor: 'Long ago, the Cyber Lords built a city on his back.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/d/d5/KingRippedHide.jpg/revision/latest?cb=20210907142321',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11436,6 +11863,7 @@ export const data: Data = {
           id: '35/110',
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11444,7 +11872,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'KingTsunami',
       cardFileName: 'KingTsunami.jpg',
       downloadUrl: {
@@ -11463,6 +11891,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'The last time it did a backflip, the resulting tidal waves sank three islands.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Leviathan'],
@@ -11471,7 +11900,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'KipChippotto',
       cardFileName: 'KipChippotto.jpg',
       downloadUrl: {
@@ -11490,6 +11919,7 @@ export const data: Data = {
           illustrator: 'Imo Kajii',
           flavor:
             'Only the Dragons realize these cute little birds hold the secrets of immortality.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -11516,6 +11946,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Akifumi Yamamoto',
           flavor: '"Safety inspector? What\'s that?" â€”Engineer Kipo',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -11541,6 +11972,7 @@ export const data: Data = {
           id: '9/55',
           rarity: 'Rare',
           illustrator: 'Ittoku',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Initiate'],
@@ -11569,6 +12001,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             '"Now you see why I failed biology." â€”Gankloak, Rogue Commando',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -11594,6 +12027,7 @@ export const data: Data = {
           id: '11/55',
           rarity: 'Common',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -11621,6 +12055,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           flavor:
             'To Fire Birds, a battlefield and a playground are one and the same.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -11629,7 +12064,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'KulusSoulshineEnforcer',
       cardFileName: 'KulusSoulshineEnforcer.jpg',
       downloadUrl: {
@@ -11648,6 +12083,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             "Right-side up, it's solar powered. Upside down, it's lunar powered!",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Berserker'],
@@ -11673,6 +12109,7 @@ export const data: Data = {
           id: '1/55',
           rarity: 'Very Rare',
           illustrator: 'Yarunoca',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -11701,6 +12138,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             '"Sneak in, grab some Dragon eggs, sneak out, and make one enormous omelet. What could be simpler?"',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -11728,6 +12166,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             '"These tubes connect me to everything. That fat one there goes right into your brain."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -11736,7 +12175,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'LaByleSeekeroftheWinds',
       cardFileName: 'LaByleSeekeroftheWinds.jpg',
       downloadUrl: {
@@ -11754,6 +12193,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Hisashi Momose',
           flavor: '"Breeze? Nah. Gust? Nah. Tornado? Aw, yeah."',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -11762,7 +12202,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'LaGuileSeekerofSkyfire',
       cardFileName: 'LaGuileSeekerofSkyfire.jpg',
       downloadUrl: {
@@ -11781,6 +12221,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "Today's weather report: partly cloudy, with an 80 percent chance of being blasted from space.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -11810,6 +12251,7 @@ export const data: Data = {
             'To protect their floating cities, Guardians are gifted with shining wings.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/e1/La_Ura_Giga%2C_Sky_Guardian.jpg/revision/latest?cb=20210316075744',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Guardian'],
@@ -11835,6 +12277,7 @@ export const data: Data = {
           id: 'S1/55',
           rarity: 'Super Rare',
           illustrator: 'Kou1',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Guardian'],
@@ -11863,6 +12306,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             'The oracles sent the Enforcers to see how badly the cataclysm damaged the planet.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Berserker'],
@@ -11892,6 +12336,7 @@ export const data: Data = {
             'Those who have seen this Enforcer believe that eclipses are omens of disaster.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/2/26/LahPurificationEnforcer.jpg/revision/latest?cb=20120221230824',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Berserker'],
@@ -11918,6 +12363,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             'Its artificial eye has X-ray vision, Y-ray vision, and Z-ray vision.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -11944,6 +12390,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Jason',
           flavor: 'From a ripple to a swell to a crest to a tsunami.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Berserker'],
@@ -11969,6 +12416,7 @@ export const data: Data = {
           id: '5/55',
           rarity: 'Uncommon',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Guardian'],
@@ -11996,6 +12444,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             '"No, no, no! It\'s not a laser! It\'s a high-intensity, focused, optical beam! Of course, it needs a laser to work." â€”Ouks, Vizier of Restoration',
+          setName: 'DM08',
         },
       ],
       text: "Choose one of your opponent's creatures in the battle zone and tap it. Then you may choose one of your creatures in the battle zone. If you do, it can't be blocked this turn.",
@@ -12022,6 +12471,7 @@ export const data: Data = {
           flavor: 'This is light speed.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c9/Laser_Wing.jpg/revision/latest?cb=20210210011213',
+          setName: 'DM01',
         },
       ],
       text: "Choose up to 2 of your creatures in the battle zone. They can't be blocked this turn.",
@@ -12048,6 +12498,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             "It's great for mashing mosquitos, scaring off skyterrors, and putting on totally awesome fireworks displays.",
+          setName: 'DM07',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -12074,6 +12525,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Tomofumi Ogasawara',
           flavor: '"Ooh! Ouch! Hot hot hot!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -12100,6 +12552,7 @@ export const data: Data = {
           id: 'S2/110',
           rarity: 'Super Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -12108,7 +12561,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'LeQuisttheOracle',
       cardFileName: 'LeQuisttheOracle.jpg',
       downloadUrl: {
@@ -12127,6 +12580,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"I have developed a devastating new weapon to combat the forces of chaos. I call it ?nap time.\'"',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -12153,6 +12607,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Miho Midorikawa',
           flavor: 'Beautiful-and deadly-beasts.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -12180,6 +12635,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             'Falling rainbow shards cut a fiery swath through the trees. Colony Beetles were the only ones able to withstand the heat.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -12206,6 +12662,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Seki',
           flavor: '"I can see my ocean from here."',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Leviathan'],
@@ -12232,6 +12689,7 @@ export const data: Data = {
           id: '81/110',
           rarity: 'Common',
           illustrator: 'Yarunoca',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Dune Gecko'],
@@ -12259,6 +12717,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             'At one root of the shattered rainbow, the Initiates raised a new continent from the depths of the sea.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Initiate'],
@@ -12286,6 +12745,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           flavor:
             '"Vizier of Brilliance, arise. Your fangs are swords of cleansing." â€”Hanusa, Radiance Elemental',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Initiate'],
@@ -12312,6 +12772,7 @@ export const data: Data = {
           illustrator: 'Imo Kajii',
           flavor:
             '"The more they squirm, the more it tickles." â€”Miele, Vizier of Lightning',
+          setName: 'DM07',
         },
       ],
       text: "Choose one of your opponent's creatures in the battle zone and tap it.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)",
@@ -12338,6 +12799,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             'Â´"The StarLight Trees\' typical diet consists of moonbeams, lightning, and wisps of clouds. But they\'re just as happy eating the burning wreckage of broken Armorloids."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -12363,6 +12825,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Let\'s find out if your brain is ticklish." â€”Legendary Bynor',
+          setName: 'DM03',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nLook at your opponent's hand and shields. Then put the shields back where they were.",
@@ -12388,6 +12851,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             '"The 5:15 rift in the universe is early today." â€”Techno Totem',
+          setName: 'DM11',
         },
       ],
       text: '(This spell is put into your mana zone tapped.)\nWhenever you summon a creature this turn, search your deck. You may take a creature from your deck that has the same name as that creature and put it into the battle zone. Then shuffle your deck.',
@@ -12413,6 +12877,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Akira Hamada',
           flavor: 'A faithful imitation of the World Tree.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -12441,6 +12906,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"Melt Warriors have more in common with salamanders, the mythical fire spirits, than they do with lizards. Unfortunately, they\'re not nearly as mythical." â€”Hokira',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Melt Warrior'],
@@ -12467,6 +12933,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Atsushi Kawasaki',
           flavor: "If you think that's scary, you should see the caboose.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Hedrian'],
@@ -12491,6 +12958,7 @@ export const data: Data = {
           id: '6/55',
           rarity: 'Common',
           illustrator: 'kou1',
+          setName: 'DM02',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -12499,6 +12967,7 @@ export const data: Data = {
           illustrator: 'sgr',
           flavor:
             '"That\'s a spiral, not a cube! That\'s not logical!" â€”Scowling Tomato',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nSearch your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck.',
@@ -12524,6 +12993,7 @@ export const data: Data = {
           illustrator: 'Dustmoss',
           flavor:
             "They're all that's holding the planet's atmosphere together.",
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nReturn a spell from your mana zone to your hand.',
@@ -12552,6 +13022,7 @@ export const data: Data = {
             '"Vizier of Hunting, arise. Your words are arrows of light." â€”Hanusa, Radiance Elemental',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/f/f7/Lokvizierofhunting.jpg/revision/latest?cb=20210210011206',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Initiate'],
@@ -12577,6 +13048,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Asai Genji',
           flavor: "It's the tollbooth operator on the highway of despair.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Ghost'],
@@ -12602,6 +13074,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Tomofumi Ogasawara',
           flavor: '"Looks like you\'re getting forgetful."',
+          setName: 'DM02',
         },
       ],
       text: 'Your opponent discards all cards from his hand.',
@@ -12626,6 +13099,7 @@ export const data: Data = {
           id: '2/110',
           rarity: 'Very Rare',
           illustrator: 'Takesi Kuno',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Guardian'],
@@ -12653,6 +13127,7 @@ export const data: Data = {
           illustrator: 'Miya',
           flavor:
             "It's as mercurial and capricious as someone who knows a lot of really big words.",
+          setName: 'DM11',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -12679,6 +13154,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Mikumo',
           flavor: 'They flock to the point where the earth meets the sky.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Guardian'],
@@ -12705,6 +13181,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             'Gratho loved bouncing stuff off of walls. That night, the walls had their revenge.',
+          setName: 'DM08',
         },
       ],
       text: 'Choose up to 2 of your creatures in the battle zone. At the end of the turn, you may untap them.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -12729,6 +13206,7 @@ export const data: Data = {
           id: '64/110',
           rarity: 'Uncommon',
           illustrator: 'Norikatsu Miyoshi',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -12737,7 +13215,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'LurkingEel',
       cardFileName: 'LurkingEel.jpg',
       downloadUrl: {
@@ -12755,6 +13233,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Taro Yamazaki',
           flavor: 'The safest place can conceal the greatest danger.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -12781,6 +13260,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Atsushi Kawasaki',
           flavor: '"Hey baby-knock on my rind."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -12808,6 +13288,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "\"I see they've loosened the definition of 'fish.'\" â€”Cantankerous Giant",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -12834,6 +13315,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/2/24/MagmaGazer.jpg/revision/latest?cb=20210210075618',
+          setName: 'DM01',
         },
       ],
       text: 'One of your creatures gets "power attacker +4000" and "double breaker" until the end of the turn. (A creature that has "power attacker +4000" and "double breaker" gets +4000 power while attacking and breaks 2 shields.)',
@@ -12858,6 +13340,7 @@ export const data: Data = {
           id: '4/55',
           rarity: 'Very Rare',
           illustrator: 'Naoki Saito',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Volcano Dragon'],
@@ -12885,6 +13368,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             "Necrodragons slept miles under the swamps. Terradragons hibernated at the root of the great waterfall. Magmadragons slumbered in baths of boiling rock at the volcanoes' cores. One by one, they awoke, arose, and continued their reign of destruction as though millions of years had not passed.",
+          setName: 'DM08',
         },
       ],
       subtypes: ['Volcano Dragon'],
@@ -12909,6 +13393,7 @@ export const data: Data = {
           id: 'S4/55',
           rarity: 'Super Rare',
           illustrator: 'Yarunoca',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Volcano Dragon'],
@@ -12935,6 +13420,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Norikatsu Miyoshi',
           flavor: 'Is it hot in here, or is it just me? Oh . . . right.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -12962,6 +13448,7 @@ export const data: Data = {
           illustrator: 'Hisanobu Kometani',
           flavor:
             '"Vizier of Magnetism, arise. Your wings are a compass that points to the truth." â€”Hanusa, Radiance Elemental',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Initiate'],
@@ -12988,6 +13475,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             '"Fertilizer and plant food are decent, I guess, but a gigantic, floating megacrystal does the trick every time." â€”Tangle Fist, the Weaver',
+          setName: 'DM09',
         },
       ],
       text: 'For each card in your mana zone, put a card from the top of your deck into your mana zone tapped.',
@@ -13011,6 +13499,7 @@ export const data: Data = {
           id: '50/55',
           rarity: 'Uncommon',
           illustrator: 'Tsutomu Kawade',
+          setName: 'DM02',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose a card in your opponent's mana zone and put it into his graveyard.",
@@ -13034,6 +13523,7 @@ export const data: Data = {
           id: '48/55',
           rarity: 'Uncommon',
           illustrator: 'Sansyu',
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nAdd a card from your mana zone to your shields face down.',
@@ -13060,6 +13550,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"I can carry out 50 trillion calculations per second . . . about how to kick your butt!"',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -13088,6 +13579,7 @@ export const data: Data = {
           flavor: 'It blooms in the ocean depths, far from any light.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/ae/MarineFlower.jpg/revision/latest?cb=20210210021516',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -13113,6 +13605,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Jason',
           flavor: '"Analysis complete. Begin the assault!" â€”Emperor Quazla',
+          setName: 'DM08',
         },
       ],
       text: "Your creatures in the battle zone can't be blocked this turn.",
@@ -13139,6 +13632,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             "I don't know who will win the war. But I know I'm on their side.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -13166,6 +13660,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             'The massive cataclysm brought on a night so deep even the forces of Darkness were afraid of it.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Living Dead'],
@@ -13194,6 +13689,7 @@ export const data: Data = {
           flavor: 'Seeking to live forever, they left their bodies behind.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/3/31/MaskedHorrorShadowofScorn.jpg/revision/latest?cb=20210210115442',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Ghost'],
@@ -13220,6 +13716,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Naoki Saito',
           flavor: "It's related to the raspberry bush.",
+          setName: 'DM03',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -13246,6 +13743,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             '"Yes! After three long years of neverending work, my invention is a complete success! Now we can finally start the barbecue!" â€” Rikabu, the Dismantler',
+          setName: 'DM12',
         },
       ],
       text: 'Choose a number less than or equal to 6000. Destroy all creatures that have that power.',
@@ -13271,6 +13769,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"They don\'t call me an arms dealer for nothing." â€”Engineer Pipo',
+          setName: 'DM04',
         },
       ],
       text: 'Discard any number of cards from your hand. Then choose the same number of your creatures in the battle zone. Each of those creatures gets "double breaker" until the end of the turn. (A creature that has "double breaker" breaks 2 shields.)',
@@ -13297,6 +13796,7 @@ export const data: Data = {
           illustrator: 'Tsuu',
           flavor:
             'Before the eerily silent army, she raised the chalice of souls. "This time," she snarled, "it better be filled with diet souls."',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -13324,6 +13824,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             "The rainbow's aftershocks caused unimaginable energy warps, which resulted in unimaginable hybrids.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Liquid People', 'Ghost'],
@@ -13351,6 +13852,7 @@ export const data: Data = {
           illustrator: 'sgr',
           flavor:
             '"Your heartbeat is throwing off the rhythm of our aquatic melody. Let\'s see what we can do about that."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Merfolk'],
@@ -13378,6 +13880,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             '"That\'s not a pacifier, it\'s a brain stem interface. With a handle. That I suck on."',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -13404,6 +13907,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Jason',
           flavor: 'It always makes its point.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -13430,6 +13934,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Jason',
           flavor: '"Uh . . . I\'m just testing the escape pod. Good luck!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Guardian'],
@@ -13455,6 +13960,7 @@ export const data: Data = {
           id: '42/55',
           rarity: 'Rare',
           illustrator: 'Jason',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -13482,6 +13988,7 @@ export const data: Data = {
           illustrator: 'Masateru Ikeda',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/13/Meteosaur.jpg/revision/latest?cb=20210210075612',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -13509,6 +14016,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             "\"What's the secret to my success? It could be that my parents raised me right and taught me respect. Or it could be the training I got serving with General Bombat. But it's probably that I've got a really big mallet.\"",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Human'],
@@ -13536,6 +14044,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             '"Everything on this world exists because we Elementals have given it life."',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Angel Command'],
@@ -13563,6 +14072,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             "Whether it's an omen of doom or an omen of glory depends on which side of the battlefield you're on.",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -13588,6 +14098,7 @@ export const data: Data = {
           id: '38/110',
           rarity: 'Rare',
           illustrator: 'Syuichi Obata',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -13617,6 +14128,7 @@ export const data: Data = {
             '"Vizier of Lightning, arise. Your eyes are a bow of judgment." â€”Hanusa, Radiance Elemental',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/a5/MieleVizierofLightning.jpg/revision/latest?cb=20210316075749',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Initiate'],
@@ -13642,6 +14154,7 @@ export const data: Data = {
           id: '9/55',
           rarity: 'Common',
           illustrator: 'Jason',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Initiate'],
@@ -13667,6 +14180,7 @@ export const data: Data = {
           id: '82/110',
           rarity: 'Uncommon',
           illustrator: 'Hikaru Ikusa',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Human'],
@@ -13693,6 +14207,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Jason',
           flavor: '"Get real. I\'ve never buckled a swash in my life."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -13721,6 +14236,7 @@ export const data: Data = {
           flavor: '"I am not pink!"',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/59/MightyShouter.jpg/revision/latest?cb=20210316075149',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -13748,6 +14264,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             '"Time has stopped. Death is extinct. Forever is now. So I hope everyone has a good book to read, because we\'ll be here for a while."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Angel Command'],
@@ -13775,6 +14292,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             '"It\'s not gonna sneak up on anyone, that\'s for sure." â€”Scowling Tomato',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -13800,6 +14318,7 @@ export const data: Data = {
           id: '12/55',
           rarity: 'Uncommon',
           illustrator: 'Jason',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Berserker'],
@@ -13827,6 +14346,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             '"I never would have imagined there was something else hidden on the moon. That makes playing with it even more fun."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -13854,6 +14374,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             '"Have you met Explosive Dude Joe? He\'s a student of mine. I\'m proud to say I taught him everything he-" BOOM!',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -13881,6 +14402,7 @@ export const data: Data = {
           illustrator: 'Ittoku',
           flavor:
             '"Someday I\'ll be strong enough to wear battle armor! You\'ll see!" â€”Mini Titan Gett',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Human'],
@@ -13905,6 +14427,7 @@ export const data: Data = {
           id: '11/55',
           rarity: 'Common',
           illustrator: 'Katsuhiko Kojoh',
+          setName: 'DM07',
         },
       ],
       text: 'Choose one of your creatures in the battle zone. This turn, it can\'t be blocked and you ignore any effects that would prevent that creature from attacking your opponent. (For example, ignore summoning sickness and card effects that say "This creature can\'t attack" or "This creature can\'t attack players." Your creatures can\'t attack creatures this way.)',
@@ -13912,7 +14435,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'MiracleQuest',
       cardFileName: 'MiracleQuest.jpg',
       downloadUrl: {
@@ -13930,6 +14453,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             '"Search high and low! We must find the jade idol! And while you\'re at it, see if you can find my car keys." â€”Tropico',
+          setName: 'DM05',
         },
       ],
       text: 'Whenever any of your creatures finishes attacking this turn, you may draw 2 cards for each shield it broke.',
@@ -13953,6 +14477,7 @@ export const data: Data = {
           id: 'S4/55',
           rarity: 'Super Rare',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM11',
         },
       ],
       text: '(This spell is put into your mana zone tapped.)\nYou can cast this spell only if your opponent has more shields than you do.\nYour opponent chooses one of his shields for each shield you have. He puts the rest of his shields into his hand. (He can use the "shield trigger" abilities of those shields.)',
@@ -13976,6 +14501,7 @@ export const data: Data = {
           id: 'S3/55',
           rarity: 'Super Rare',
           illustrator: 'Toshiaki Takayama',
+          setName: 'DM11',
         },
       ],
       text: "(This spell is put into your mana zone tapped.)\nChoose 2 of your opponent's creatures in the battle zone. Your opponent chooses one of them, puts it into his hand, and destroys the other one. Then choose 2 cards in your opponent's mana zone. Your opponent chooses one of them, puts it into his hand, and puts the other one into his graveyard.",
@@ -13999,6 +14525,7 @@ export const data: Data = {
           id: 'S5/55',
           rarity: 'Super Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM11',
         },
       ],
       text: "(This spell is put into your mana zone tapped.)\nDestroy one of your opponent's creatures that has power 5000 or less. When your opponent puts that creature into his graveyard, search your deck. You may take a creature from your deck that has the same cost as that creature and put it into the battle zone. Then shuffle your deck.",
@@ -14024,6 +14551,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             'The veil between realities is as beautiful as it is stifling.',
+          setName: 'DM11',
         },
       ],
       text: "(This spell is put into your mana zone tapped.)\nChoose a non-evolution creature in the battle zone and add it to its owner's shields face down.",
@@ -14047,6 +14575,7 @@ export const data: Data = {
           id: '5/55',
           rarity: 'Very Rare',
           illustrator: 'Akira Hamada',
+          setName: 'DM11',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\n(This spell is put into your mana zone tapped.)\nChoose a civilization. Until the start of your next turn, creatures of that civilization can't attack you even if your opponent puts them into the battle zone after you cast this spell.",
@@ -14073,6 +14602,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             'Once the Dragons awoke, so did the Dragon hunters. The Dragon photographers woke up next, followed closely by the Dragon dentists, Dragon insurance agents, and Dragon souvenir-shop owners.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -14099,6 +14629,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Akira Hamada',
           flavor: 'Ladies and gentlemen, hello . . . and goodbye!',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Human'],
@@ -14124,6 +14655,7 @@ export const data: Data = {
           id: '40/55',
           rarity: 'Common',
           illustrator: 'Syuichi Obata',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -14151,6 +14683,7 @@ export const data: Data = {
           illustrator: 'Yusaku Nakaaki',
           flavor:
             '"When you shine a light into a dark corner, the shadow instantly vanishes. This should be an easy war."',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Guardian'],
@@ -14178,6 +14711,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Plasmoparticles are disgusting. Electrification is freaky. Electrofied plasmoparticles? That\'s just crossing the line." â€” Death Phoenix, Avatar of Doom',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -14205,6 +14739,7 @@ export const data: Data = {
           illustrator: 'Dustmoss',
           flavor:
             '"Shut off a light for a split second, and darkness rushes in to fill the void. This should be an easy war."',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Hedrian'],
@@ -14213,7 +14748,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'MoonHorn',
       cardFileName: 'MoonHorn.jpg',
       downloadUrl: {
@@ -14232,6 +14767,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"Sometimes he\'ll go hog wild at a party and totally pig out. But he\'s usually such a boar." â€”Fear Fang',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -14259,6 +14795,7 @@ export const data: Data = {
           flavor: 'Cower before the purity of the Angel Commands!',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/54/MoonlightFlash.jpg/revision/latest?cb=20210316075753',
+          setName: 'DM01',
         },
       ],
       text: "Choose up to 2 of your opponent's creatures in the battle zone and tap them.",
@@ -14285,6 +14822,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             'All who see his sword undergo a change of heart. All who feel his sword undergo a change of intestines.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Rainbow Phantom'],
@@ -14311,6 +14849,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           flavor:
             '"You may call it a grotesque perversion of nature, but I call it-actually, I kinda like the sound of that. Grotesque perversion of nature. Yeah, you nailed it."',
+          setName: 'DM11',
         },
       ],
       text: 'Return up to 2 creatures from your graveyard to your hand.',
@@ -14335,6 +14874,7 @@ export const data: Data = {
           id: '31/55',
           rarity: 'Uncommon',
           illustrator: 'Katsuya',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Hedrian'],
@@ -14362,6 +14902,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"We all crawl from the slime. Someday, we\'ll all return to it."',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Hedrian'],
@@ -14388,6 +14929,7 @@ export const data: Data = {
           illustrator: 'Asai Genji',
           flavor:
             'Its bark is bone; its sap is blood. Its leaves are real leaves, though.',
+          setName: 'DM07',
         },
       ],
       text: 'Put one of your creatures from the battle zone into your mana zone.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -14414,6 +14956,7 @@ export const data: Data = {
           illustrator: 'Mikumo',
           flavor:
             'When fear drives out all rational thought, only instinct remains.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Ghost'],
@@ -14441,6 +14984,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Ah, my finest creation! Not only is 80 percent of its body made of blades, it\'s got a corkscrew and a bottle opener as well!" â€” Muramasa, Duke of Blades',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -14468,6 +15012,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             '"If I can\'t teach you respect, my Ultimate Astral Strike will!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Human'],
@@ -14494,6 +15039,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             '"Step 1: Prepare for adventures. Step 2: Have adventures. Wha-hai!!!" â€”Quixotic Hero Swine Snout',
+          setName: 'DM08',
         },
       ],
       text: 'Each of your creatures in the battle zone gets +3000 power until the end of the turn.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -14520,6 +15066,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             '"I was tinkering with a rainbow shard in my workshop, and you\'ll never guess what happened! Oh. You guessed." â€”Shock Trooper Mykee',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -14546,6 +15093,7 @@ export const data: Data = {
           illustrator: 'Imo Kajii',
           flavor:
             '"Don\'t worry! No one gets arrested for breaking the laws of nature anymore."',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nReturn up to 3 cards from your mana zone to your hand.',
@@ -14571,6 +15119,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             "\"The Angel Commands have sent us a divine message! Let's see: 'Ice cream, rye bread, bananas, laundry detergent . . .'\"",
+          setName: 'DM04',
         },
       ],
       text: 'Add the top card of your deck to your shields face down.',
@@ -14597,6 +15146,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "\"I don't have a rabbit. I don't have a hat. I don't have a wand. But I do have a trick....\"",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Merfolk'],
@@ -14623,6 +15173,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"Mighty Bandit didn\'t earn his name by robbing piggy banks. Well, not just piggy banks."',
+          setName: 'DM06',
         },
       ],
       text: 'Search your deck. You may take a non-nature card from your deck and put it into your mana zone. Then shuffle your deck.',
@@ -14649,6 +15200,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             'Just as predicted, the earthquakes created by the waking Dragons reactivated the sentinels. Everything was still under their control.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -14675,6 +15227,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Masaki Hirooka',
           flavor: 'The universe trembles at its beauty.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -14701,6 +15254,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/ef/NaturalSnare.jpg/revision/latest?cb=20210315062637',
+          setName: 'DM01',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose 1 of your opponent's creatures in the battle zone and put it into his mana zone.",
@@ -14726,6 +15280,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Takesi Kuno',
           flavor: 'The only thing stronger than its evil is its stench.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -14752,6 +15307,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Ryoya Yuki',
           flavor: 'Its wingbeats whisper promises of doom.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -14779,6 +15335,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             'The rancor and regrets of thousands upon thousands united into one entity-and the cursed Dragon stirred from its slumber.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -14805,6 +15362,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Masaki Hirooka',
           flavor: 'Its fangs drip with the spite of the world.',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -14831,6 +15389,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Toshiaki Takayama',
           flavor: 'Its bones are made of steel. Its flames are made of hate.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -14858,6 +15417,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             'It feeds on pain and suffering. Actually, since it went on a diet, it feeds on lite-pain and fat-free suffering substitute.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -14883,6 +15443,7 @@ export const data: Data = {
           id: '19/55',
           rarity: 'Rare',
           illustrator: 'Seki',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Xenoparts', 'Giant Insect'],
@@ -14911,6 +15472,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"You can win more wars by thinking than you can by fighting." â€”Marinomancer',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -14936,6 +15498,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
           flavor: '"We have a problem: I failed geometry." â€”Mini Titan Gett',
+          setName: 'DM09',
         },
       ],
       text: 'Add a card from your hand to your shields face down.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -14962,6 +15525,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"Everyone always makes fun of my pointy head. Can\'t they make fun of my stubby feet for a change?"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Initiate'],
@@ -14991,6 +15555,7 @@ export const data: Data = {
             "Don't turn around. You wouldn't want to see what's behind you.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c5/NightMasterShadowofDecay.jpg/revision/latest?cb=20120222015226',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Ghost'],
@@ -15017,6 +15582,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Atsushi Kawasaki',
           flavor: 'Not all nightmares end when you wake up.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -15043,6 +15609,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             'This mysterious hero endlessly battles against pie bakers, the enemies of Wild Veggies everywhere.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -15068,6 +15635,7 @@ export const data: Data = {
           id: 'S5/55',
           rarity: 'Super Rare',
           illustrator: 'Tsuu',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -15077,7 +15645,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'NocturnalGiant',
       cardFileName: 'NocturnalGiant.jpg',
       downloadUrl: {
@@ -15096,6 +15664,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             'Does it harness the power of the stars? Does it prefer the cover of night? Or does it just get sunburned really easily?',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Giant'],
@@ -15125,6 +15694,7 @@ export const data: Data = {
             '"Time to move on. So many unexplored worlds; so much trash to find!" â€”Nomad Hero Gigio',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9d/NomadHeroGigio.jpg/revision/latest?cb=20130401231342',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Machine Eater'],
@@ -15133,7 +15703,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'ObsidianScarab',
       cardFileName: 'ObsidianScarab.jpg',
       downloadUrl: {
@@ -15150,6 +15720,7 @@ export const data: Data = {
           id: '5/55',
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -15179,6 +15750,7 @@ export const data: Data = {
             'The first to the front lines are the first to taste victory.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9d/OnslaughterTriceps.jpg/revision/latest?cb=20210210075607',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -15206,6 +15778,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             "It's a grabbin', drillin', clampin', smashin', shootin', stompin' fighter.",
+          setName: 'DM07',
         },
       ],
       subtypes: ['Armorloid'],
@@ -15232,6 +15805,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Miho Midorikawa',
           flavor: "\"Laser web'? Check. 'Laser spider'? Still on order.\"",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Initiate'],
@@ -15257,6 +15831,7 @@ export const data: Data = {
           id: '41/110',
           rarity: 'Uncommon',
           illustrator: 'Katsuya',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -15284,6 +15859,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             "Just because it looks like a trap doesn't mean it's not a trap.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Guardian'],
@@ -15312,6 +15888,7 @@ export const data: Data = {
             '"Here\'s something better for you to do." â€”Fighter Dual Fang',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/49/PangaeasSong.jpg/revision/latest?cb=20210210093545',
+          setName: 'DM01',
         },
       ],
       text: 'Put 1 of your creatures from the battle zone into your mana zone.',
@@ -15335,6 +15912,7 @@ export const data: Data = {
           id: '107/110',
           rarity: 'Uncommon',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM06',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's mana zone.",
@@ -15361,6 +15939,7 @@ export const data: Data = {
           illustrator: 'Imo Kajii',
           flavor:
             'Few places on the planet still know the joy of absolute peace. Paradise Horn makes sure this is one of them.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -15388,6 +15967,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"My primary weapon is extreme cuteness. But if I don\'t cute my enemies to death, the waves of blistering flames are a good backup."',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -15415,6 +15995,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             '"When I awoke, I thought it was noon. Then I realized the sun was still down . . . but Petrova was overhead." â€”Fear Fang',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -15441,6 +16022,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Daisuke Izuka',
           flavor: '"Like the sun, I\'m just getting warmed up."',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Guardian'],
@@ -15467,6 +16049,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Sansyu',
           flavor: 'One moment, a gleaming city. The next moment, ash.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Chimera'],
@@ -15495,6 +16078,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             '"Pretend I\'m a nightmare. You won\'t go as insane that way."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Chimera'],
@@ -15521,6 +16105,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Taro Yamazaki',
           flavor: '"Would you prefer a real Dragon?"',
+          setName: 'DM06',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -15528,6 +16113,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Naoki Saito',
           flavor: 'Some phantoms have healthier appetites than others.',
+          setName: 'DM10',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy one of your opponent's creatures that has power 2000 or less.",
@@ -15554,6 +16140,7 @@ export const data: Data = {
           illustrator: 'Ittoku',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/3/3a/PhantomFish.jpg/revision/latest?cb=20210210020839',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -15579,6 +16166,7 @@ export const data: Data = {
           id: '18/55',
           rarity: 'Rare',
           illustrator: 'Sansyu',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Chimera', 'Armorloid'],
@@ -15607,6 +16195,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             'Its enemies paid no attention to it until it replaced its Silky Green Ribbon of Unimpressive Lameness with the Pretty Pink Ribbon of Whirling Devastation.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -15634,6 +16223,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"I will snuff out the sun and the stars! Then I\'ll move on to the candles and the lanterns. If I have time, I\'ll take care of those glow sticks people wear around thier necks. But the sun is first!"',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Demon Command'],
@@ -15661,6 +16251,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             '"The Machine Eaters are a race of inventors and mechanics. One day, bored out of their minds, they decided it would be funny to grant life to their tools-and the XenoParts were born."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -15685,6 +16276,7 @@ export const data: Data = {
           id: '55/110',
           rarity: 'Uncommon',
           illustrator: 'Katsuya',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -15712,6 +16304,7 @@ export const data: Data = {
           illustrator: 'Shukei',
           flavor:
             '"Its pincers are so sharp, they can cut clouds in half." â€” Aura Pegasus, Avatar of Life',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -15739,6 +16332,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             'The epic battle between Dragons and winged, bird-headed, laser-shooting fortresses continues.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Moon'],
@@ -15766,6 +16360,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             'When a Fire Bird senses a Dragon in trouble, the whole flock rises into the air, chirps "kuripppie," and dashes to the rescue.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -15793,6 +16388,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             "A program to aid the Cyber Lords' land assault, it contains an advanced tracking system designed to function against multiple opponents.",
+          setName: 'DM02',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -15819,6 +16415,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Jason',
           flavor: 'He hacks into your mind . . . and rips it to shreds.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Liquid People', 'Ghost'],
@@ -15846,6 +16443,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             '"You won\'t get any dessert until you finish eating your friends!" â€”Dark Titan Maginn',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -15875,6 +16473,7 @@ export const data: Data = {
             '"I will never give you up." â€”Symbolic meaning of the poisonous dahlia in flower language',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/1d/PoisonousDahlia.jpg/revision/latest?cb=20210521082804',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -15903,6 +16502,7 @@ export const data: Data = {
           flavor: "You won't find these mushrooms on salads.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/a7/PoisonousMushroom.jpg/revision/latest?cb=20200811042317',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Balloon Mushroom'],
@@ -15911,7 +16511,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'Pokolul',
       cardFileName: 'Pokolul.jpg',
       downloadUrl: {
@@ -15929,6 +16529,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Norikatsu Miyoshi',
           flavor: 'The cosmic offspring of Father Time and a motherboard.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -15954,6 +16555,7 @@ export const data: Data = {
           id: '23/110',
           rarity: 'Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Soltrooper'],
@@ -15981,6 +16583,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             '"I wish every day was the first day of spring. Hold on-I have magical powers! I can just do that!"',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Snow Faerie'],
@@ -16007,6 +16610,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Ryoya Yuki',
           flavor: 'A blast to the past.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -16031,6 +16635,7 @@ export const data: Data = {
           id: '65/110',
           rarity: 'Uncommon',
           illustrator: 'Atsushi Kawasaki',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nYour opponent chooses one of his creatures in the battle zone and destroys it.',
@@ -16057,6 +16662,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             '"It is my spy into the Survivor clan. They have accepted it as one of their own, and it has learned all their secrets." â€”Emperor Quazla',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor', 'Sea Hacker'],
@@ -16083,6 +16689,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             '"Being a plane is cool, but my real dream is to be a pile of smoldering wreckage!"',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Hedrian'],
@@ -16107,6 +16714,7 @@ export const data: Data = {
           id: '24/110',
           rarity: 'Uncommon',
           illustrator: 'Kou1',
+          setName: 'DM06',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nOne of your creatures in the battle zone that has "blocker" gets +4000 power until the end of the turn.',
@@ -16133,6 +16741,7 @@ export const data: Data = {
           illustrator: 'Fruit Parfait',
           flavor:
             '"I knew the laws of nature could bend. I didn\'t know they could be twisted into a pretzel." â€”Mini Titan Gett',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -16158,6 +16767,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Dreamwave',
           flavor: 'Think. Think harder. No, not that hard.',
+          setName: 'DM03',
         },
       ],
       text: 'Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard.',
@@ -16184,6 +16794,7 @@ export const data: Data = {
           illustrator: 'Dustmoss',
           flavor:
             'Young Balloon Mushrooms think pizzas exist only in horror stories their parents use to scare them. When they grow up, they learn the awful truth.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Balloon Mushroom'],
@@ -16211,6 +16822,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             "They are the generators that power the Light civilization's floating fortresses. But did they grow into the cities, or did the cities grow out of them?",
+          setName: 'DM07',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -16237,6 +16849,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Kou1',
           flavor: '"Do you want mustard on your knuckle sandwich?"',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Armorloid'],
@@ -16263,6 +16876,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Naoki Saito',
           flavor: 'You do not want to get into a tickle fight with this thing.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -16290,6 +16904,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             '"At maximum speed, he reaches escape velocity and teleports to a whole new dimension... but which one?"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -16317,6 +16932,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             'A disaster nearly doomed the Survivors. Now disasters merely fuel their fury.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor'],
@@ -16344,6 +16960,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Jason',
           flavor: '"Don\'t let me think too hard. It makes the world explode."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor'],
@@ -16372,6 +16989,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             'Its blood is magma. Its saliva is also magma. (You can probably guess what its snot and pus are.)',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -16399,6 +17017,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             "The three most dangerous things to do in the forest are lick Poisonous Dahlia, clip Stratosphere Giant's toenails, and give Quillspike Rumbler a back rub.",
+          setName: 'DM11',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -16426,6 +17045,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             '"Make haste, my piggy steed. This pesky rockslide shall not delay us from our afternoon tea with the sultan. Wha-hai!!!"',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -16452,6 +17072,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Yoshio Sugiura',
           flavor: '"I am the eye of the hurricane of endless destruction."',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -16479,6 +17100,7 @@ export const data: Data = {
           illustrator: 'Ryoya Yuki',
           flavor:
             'The Fiona Woods - a natural wonderland conquered and corrupted by the forces of darkness - became the breeding ground for some of the freakiest creatures ever seen. No one could explain it, and everyone feared what might emerge next.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -16506,6 +17128,7 @@ export const data: Data = {
           illustrator: 'Youichi Kai',
           flavor:
             'The night the Fiana Woods were finally defeated, the sky echoed their cries of rage.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -16532,6 +17155,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"Today\'s weather report calls for sunshine, with an 80 percent chance of kicking your butt." â€”Laveil, Seeker of Catastrophe',
+          setName: 'DM06',
         },
       ],
       text: "Look at your opponent's hand. He discards all darkness spells from it.",
@@ -16557,6 +17181,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             "Ten thousand miles away, Bombazar's Dragon hockey team suddenly found itself a player short.",
+          setName: 'DM11',
         },
       ],
       text: 'Search your deck. You may take a multi-colored creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.',
@@ -16581,6 +17206,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Yusaku Nakaaki',
           flavor: 'Pick a color. Any color.',
+          setName: 'DM02',
         },
       ],
       text: 'Search your deck. You may take a card from your deck and put it into your mana zone. Then shuffle your deck.',
@@ -16604,6 +17230,7 @@ export const data: Data = {
           id: '24/110',
           rarity: 'Rare',
           illustrator: 'Akira Hamada',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nYou may destroy one of your creatures. If you do, choose a creature in your hand that costs the same as or less than the number of cards in your mana zone and put it into the battle zone.',
@@ -16630,6 +17257,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"Its control chip is busted. Each time it blinks, I- Its control chip is busted. Each time it blinks, I-" â€”Sopian',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -16659,6 +17287,7 @@ export const data: Data = {
             "The Enforcers deliver the oracles' words, which bear the power of truth.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/a6/RaylaTruthEnforcer.jpg/revision/latest?cb=20090129144230',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Berserker'],
@@ -16684,6 +17313,7 @@ export const data: Data = {
           id: '7/55',
           rarity: 'Rare',
           illustrator: 'Akira Hamada',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Guardian'],
@@ -16711,6 +17341,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             'It looks harmless . . . until it starts shooting its steel-piercing needles at you.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -16737,6 +17368,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Eiji Kaneda',
           flavor: "Bull's-eye!",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -16763,6 +17395,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"Only those who don\'t understand call it chaos. The rest call it life." â€”Gonta, the Warrior Savage',
+          setName: 'DM11',
         },
       ],
       text: "(This spell is put into your mana zone tapped.)\nChoose a card in your opponent's mana zone and put it into his graveyard. Then put the top card of your deck into your mana zone.",
@@ -16787,6 +17420,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Katsuya',
           flavor: "That's not a puddle...",
+          setName: 'DM02',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -16794,6 +17428,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Katsuya',
           flavor: 'A little bit psychic. A little bit psychotic.',
+          setName: 'DM10',
         },
       ],
       text: "Look at up to 3 of your opponent's shields. Then put them back where they were.",
@@ -16822,6 +17457,7 @@ export const data: Data = {
             'Never start a fire in the depths of a forest. Enraged red-eye scorpions will come after you.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/82/RedEyeScorpion.jpg/revision/latest?cb=20120220182528',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -16848,6 +17484,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'At the signal, the warriors fell upon their foes like a crashing wave, leaving nothing but destruction in their wake.',
+          setName: 'DM09',
         },
       ],
       text: "Choose a race. This turn, each creature of that race can attack untapped creatures and can't be blocked while attacking a creature.",
@@ -16874,6 +17511,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             'Thanks to their especially keen senses, the Guardians were the first to react to the cataclysm.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Guardian'],
@@ -16901,6 +17539,7 @@ export const data: Data = {
           flavor: 'Soul and light enmeshed in a web of glory.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/ea/ReusoltheOracle.jpg/revision/latest?cb=20210521082713',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -16926,6 +17565,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Taro Yamazaki',
           flavor: '"What? Haven\'t you ever seen ears before?"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Merfolk'],
@@ -16953,6 +17593,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/1a/RevolverFish.jpg/revision/latest?cb=20120420125456',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -16980,6 +17621,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             "It's good at putting things together. It's better at taking things apart.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -16988,7 +17630,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'RikabutheDismantler',
       cardFileName: 'RikabutheDismantler.jpg',
       downloadUrl: {
@@ -17006,6 +17648,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Syuichi Obata',
           flavor: '"I\'ll have that ripped apart in no time!"',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Machine Eater'],
@@ -17033,6 +17676,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             'As the sun streams through the clouds, so shall some other poetic stuff happen.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Angel Command'],
@@ -17060,6 +17704,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"Its petals wave gently in the current, tempting prey to come closer to its poisonous tendrils."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor', 'Cyber Virus'],
@@ -17086,6 +17731,7 @@ export const data: Data = {
           illustrator: 'Asai Genji',
           flavor:
             '"Congratulations! You\'ve won an all-expenses-paid trip to Anywhere Else. Thanks for playing!" â€”Corile',
+          setName: 'DM07',
         },
       ],
       text: "Choose a creature in the battle zone and return it to its owner's hand.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)",
@@ -17109,6 +17755,7 @@ export const data: Data = {
           id: '51/55',
           rarity: 'Uncommon',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM11',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\n(This spell is put into your mana zone tapped.)\nReveal the top 4 cards of your deck. Put one of them that has "blocker" into your hand, and put the rest on the bottom of your deck in any order.',
@@ -17133,6 +17780,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Taro Yamazaki',
           flavor: 'When danger looms, heroes rise.',
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nReturn a creature that costs 6 or more from your mana zone to your hand.',
@@ -17160,6 +17808,7 @@ export const data: Data = {
           flavor: 'With a mighty, earthshaking roar, the King of Beasts arose.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/7/78/RoaringGreatHorn.jpg/revision/latest?cb=20130111194758',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -17187,6 +17836,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             '"And just when do all the different kinds of Wyverns that have been asleep in the earth for millions of years wake up? Huh?"',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -17213,6 +17863,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Shishizaru',
           flavor: 'The wounds of war run deep . . . and are full of pus.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Guardian'],
@@ -17239,6 +17890,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Ittoku',
           flavor: '"Camouflage? That\'s a funny word. What\'s it mean?"',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -17266,6 +17918,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             '"Vizier of Tendrils, arise. Your grip is the beacon that leads the way." â€”Hanusa, Radiance Elemental',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Initiate'],
@@ -17293,6 +17946,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             '"No fair! They flew in and sucked up all our lava! How can I take a bath now?" â€”Artisan Picora',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Gladiator'],
@@ -17318,6 +17972,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Atsushi Kawasaki',
           flavor: 'Life is the building block of life.',
+          setName: 'DM08',
         },
       ],
       text: 'Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -17346,6 +18001,7 @@ export const data: Data = {
             '"Though battered and scarred, I march on through wars, storms, and strife. I march on."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/e4/RothusTheTraveler.jpg/revision/latest?cb=20210210075602',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armorloid'],
@@ -17370,6 +18026,7 @@ export const data: Data = {
           id: '30/55',
           rarity: 'Rare',
           illustrator: 'Ippei Soeda',
+          setName: 'DM11',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nChoose a number. Show your hand to your opponent and discard from it each card that has that cost. Then your opponent shows you his hand and discards from it each card that has that cost.',
@@ -17394,6 +18051,7 @@ export const data: Data = {
           id: '49/55',
           rarity: 'Rare',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -17421,6 +18079,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/86/RubyGrass.jpg/revision/latest?cb=20210210011355',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -17446,6 +18105,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Kou1',
           flavor: "It's too soon to let down your guard.",
+          setName: 'DM02',
         },
       ],
       text: 'Each of your creatures in the battle zone gets +1000 power until the end of the turn.\nEach of your creatures in the battle zone that can attack creatures can attack untapped creatures this turn.',
@@ -17471,6 +18131,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Akira Hamada',
           flavor: '"You\'d run fast too, if you were on fire."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Survivor', 'Rock Beast'],
@@ -17496,6 +18157,7 @@ export const data: Data = {
           id: '52/55',
           rarity: 'Rare',
           illustrator: 'Ittoku',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -17504,7 +18166,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'RuthlessSkyterror',
       cardFileName: 'RuthlessSkyterror.jpg',
       downloadUrl: {
@@ -17523,6 +18185,7 @@ export const data: Data = {
           illustrator: 'Yoko Tsukamoto',
           flavor:
             '"If you don\'t kneel before my wrath, you\'ll certainly kneel after it."',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -17550,6 +18213,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"Why can\'t there ever be a nice, fun reign of chaos without some sort of righteous avenger emerging?" â€”Gajirabute, Vile Centurion',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -17577,6 +18241,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             "Rhythmically swayed by Sabermask Scarab's giant wings, the branches and leaves of the forest sing a march for it as it flies overhead.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -17602,6 +18267,7 @@ export const data: Data = {
           id: '31/55',
           rarity: 'Common',
           illustrator: 'Seki',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -17627,6 +18293,7 @@ export const data: Data = {
           id: '109/110',
           rarity: 'Uncommon',
           illustrator: 'Mikumo',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Beast Folk', 'Initiate'],
@@ -17654,6 +18321,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             'He uses the flame that burns in his heart to ignite another one on your head.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -17680,6 +18348,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Hisashi Momose',
           flavor: "It's got a heart of gold. And a gall bladder of zinc.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Initiate'],
@@ -17705,6 +18374,7 @@ export const data: Data = {
           id: '12/55',
           rarity: 'Rare',
           illustrator: 'Jason',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -17733,6 +18403,7 @@ export const data: Data = {
           flavor: '"Isn\'t it cool? The heads can be combined." â€”Tropico',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/67/SaucerHeadShark.jpg/revision/latest?cb=20120421183945',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -17759,6 +18430,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Katsuya',
           flavor: 'Finding a scalpel spider is easy. Just search the web.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -17787,6 +18459,7 @@ export const data: Data = {
           flavor: 'The forces of Fire will never relent.',
           image:
             'https://duelmasters.fandom.com/wiki/DM-01_Base_Set_Gallery_(TCG)?so=search&file=ScarletSkyterror.jpg',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -17795,7 +18468,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SchemingHands',
       cardFileName: 'SchemingHands.jpg',
       downloadUrl: {
@@ -17813,6 +18486,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             '"Everyone has secrets. Everyone but you." â€”Trox, General of Destruction',
+          setName: 'DM05',
         },
       ],
       text: "Look at your opponent's hand and choose a card from it. Your opponent discards that card.",
@@ -17839,6 +18513,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             '"All the mysteries of the universe-the eternal questions of past, present, and future-pretty much boil down to this: how do you like my spiffy new cape?"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -17866,6 +18541,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             'The shores of the Fire territory turned blue as wave after wave of Water creatures landed.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -17873,7 +18549,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'ScissorScarab',
       cardFileName: 'ScissorScarab.jpg',
       downloadUrl: {
@@ -17890,6 +18566,7 @@ export const data: Data = {
           id: '54/55',
           rarity: 'Common',
           illustrator: 'Norikatsu Miyoshi',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -17916,6 +18593,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akifumi Yamamoto',
           flavor: '"Gotta go!"',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -17943,6 +18621,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             '"The barbaric practice of eating salad will no longer be tolerated! The demented minds that created tomato juice will be hunted down! The dual atrocities of tomato paste and tomato sauce end here! And whether you call it ketchup or catsup, know this - soon I shall call it revenge!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -17968,6 +18647,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Seki',
           flavor: '"Uh oh. My nose itches!"',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Hedrian'],
@@ -17995,6 +18675,7 @@ export const data: Data = {
           illustrator: 'Yoko Tsukamoto',
           flavor:
             'Neither flesh nor blood nor souls can ever slake the thirst of the dead.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Ghost'],
@@ -18020,6 +18701,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Yusaku Nakaaki',
           flavor: 'Forty megatons of happiness.',
+          setName: 'DM04',
         },
       ],
       text: 'Tap all creatures in the battle zone except light creatures.',
@@ -18046,6 +18728,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             "\"The difference between reality and illusion is important to understand, except when you're in the middle of being squashed flat by a gigantic illusion. At that point it doesn't matter very much that it isn't real.\" â€” Cruel Naga, Avatar of Fate",
+          setName: 'DM12',
         },
       ],
       subtypes: ['Merfolk', 'Hedrian'],
@@ -18054,7 +18737,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SeaSlug',
       cardFileName: 'SeaSlug.jpg',
       downloadUrl: {
@@ -18073,6 +18756,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'The Cyber Lords have high standards of beauty for their creations. They have even higher standards of ugliness.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -18102,6 +18786,7 @@ export const data: Data = {
             'If the last thing in your life you want to see is something beautiful, attack an underwater city.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/65/Seamine.jpg/revision/latest?cb=20120221224143',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Fish'],
@@ -18127,6 +18812,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Dustmoss',
           flavor: "Surf's up!",
+          setName: 'DM03',
         },
       ],
       text: "Destroy all your opponent's creatures that have power 3000 or less.\nChoose one of your shields and put it into your graveyard.",
@@ -18155,6 +18841,7 @@ export const data: Data = {
             'Floating trees in the sky generate beautiful light from poisoned air.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/86/SenatineJadeTree.jpg/revision/latest?cb=20210521082708',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -18181,6 +18868,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Toshiaki Takayama',
           flavor: 'Whole armies have been lost on fruit-salad expeditions.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -18208,6 +18896,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             'It spins a web of evil spells, all for its mistress, the Princess of War.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Ghost'],
@@ -18235,6 +18924,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             "This respected elder of the woodlands is a source of deep and ancient wisdom, as well as a source of vitamin A, vitamin C, iron, potassium, and folic acid. It has few natural predators, as most creatures just don't want to eat it.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -18260,6 +18950,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Akifumi Yamamoto',
           flavor: '"I wish I had my umbrellaaaaaaaaaaaaaaaaaaaa!"',
+          setName: 'DM06',
         },
       ],
       text: "Return any number of your creatures from the battle zone to your hand. Then you may choose that many of your opponent's creatures in the battle zone and return them to your opponent's hand.",
@@ -18284,6 +18975,7 @@ export const data: Data = {
           id: '42/55',
           rarity: 'Rare',
           illustrator: '\tDaisuke Izuka',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Human'],
@@ -18310,6 +19002,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Akira Hamada',
           flavor: 'Living underwater means never having to take a bath.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -18335,6 +19028,7 @@ export const data: Data = {
           id: '8/55',
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Initiate'],
@@ -18363,6 +19057,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             '"A tank? A tank is something you keep fish in. This is a TANK." â€”Mini Titan Gett',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armorloid'],
@@ -18390,6 +19085,7 @@ export const data: Data = {
           illustrator: 'Syuichi Obata',
           flavor:
             'The Silver Beards rose to defend their families and their forest home.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -18417,6 +19113,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"Is one life too high a price to pay to save an entire forest?"',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -18443,6 +19140,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Youichi Kai',
           flavor: '"Follow me."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -18470,6 +19168,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"Thanks to my fist cannons, I can punch someone in the face from up to two miles away!"',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Armorloid'],
@@ -18478,7 +19177,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SinisterGeneralDamudo',
       cardFileName: 'SinisterGeneralDamudo.jpg',
       downloadUrl: {
@@ -18497,6 +19196,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"The Fiona Woods will sustain us only for so long. We must push deeper into the Nature realm."',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -18523,6 +19223,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             'The music floats gently above the water to shake the foundations of the earth.',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nPut a card from your mana zone into your hand. Then put a card from your hand into your mana zone.',
@@ -18549,6 +19250,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             '"I\'m not building a weather machine. . . . I am a weather machine!"',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Angel Command'],
@@ -18578,6 +19280,7 @@ export const data: Data = {
             '"Rip. Tear. Gnash. They all make the same delightful noises."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/0/00/SkeletonSoldiertheDefiled.jpg/revision/latest?cb=20210210031800',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Living Dead'],
@@ -18604,6 +19307,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "I've dug up a pelvis, five kneecaps, and a bucketful of ribs tonight. But I still can't find any hands!",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Living Dead'],
@@ -18630,6 +19334,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Daisuke Izuka',
           flavor: '"Good job, everyone! The diet is really working!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -18638,7 +19343,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SkullsweeperQ',
       cardFileName: 'SkullsweeperQ.jpg',
       downloadUrl: {
@@ -18657,6 +19362,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             "They don't like it when their victims twitch. They're ticklish.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Brain Jacker'],
@@ -18684,6 +19390,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             'Firing goes a lot faster when you skip all that pesky readying and aiming.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -18709,6 +19416,7 @@ export const data: Data = {
           id: '50/55',
           rarity: 'Rare',
           illustrator: 'Atsushi Kawasaki',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -18735,6 +19443,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Eiji Kaneda',
           flavor: 'He hums with the simple harmony of the wild.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Beast Folk', 'Initiate'],
@@ -18760,6 +19469,7 @@ export const data: Data = {
           id: '42/55',
           rarity: 'Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -18786,6 +19496,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"Life is short. And now it\'s shorter." â€”Azaghast, Tyrant of Shadows',
+          setName: 'DM09',
         },
       ],
       text: "Search a player's deck. You may take a card from that deck and put it into that player's graveyard. Then the player shuffles his deck.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)",
@@ -18810,6 +19521,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Naoki Saito',
           flavor: 'This is what happens when nightmares have nightmares.',
+          setName: 'DM11',
         },
       ],
       text: "(This spell is put into your mana zone tapped.)\nWhenever any of your opponent's creatures is destroyed this turn, your opponent chooses a card in his mana zone and puts it into his graveyard. Then he chooses one of his shields and puts it into his graveyard.",
@@ -18817,7 +19529,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SlimeVeil',
       cardFileName: 'SlimeVeil.jpg',
       downloadUrl: {
@@ -18835,6 +19547,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             '"Hey, you\'re really getting the hang of that. Now make him do a little dance." â€”Dark Titan Maginn',
+          setName: 'DM05',
         },
       ],
       text: "During your opponent's next turn, each of his creatures attacks if able.",
@@ -18861,6 +19574,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             '"It hasn\'t moved from that spot for a hundred years. Based on the normal lifespan of a Colony Beetle, it\'s taking a quick nap."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -18868,7 +19582,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SmashHornQ',
       cardFileName: 'SmashHornQ.jpg',
       downloadUrl: {
@@ -18886,6 +19600,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Norikatsu Miyoshi',
           flavor: 'The symbol on its back is proof of its refusal to die.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Horned Beast'],
@@ -18913,6 +19628,7 @@ export const data: Data = {
           illustrator: 'Nottsuo',
           flavor:
             '"They grow up so fast. Unfortunately." â€”Urth, Purifying Elemental',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armorloid'],
@@ -18940,6 +19656,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             'I love the ocean! I love fish! I love rocks! I love being an artificial monstrosity constructed by the Cyber Lords! Everything is great!',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -18965,6 +19682,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Naoki Saito',
           flavor: 'Baraga unsuccessfully gave swords to his army of snakes.',
+          setName: 'DM03',
         },
       ],
       text: 'Each of your creatures in the battle zone gets "double breaker" until the end of the turn. (A creature that has "double breaker" breaks 2 shields.)\nChoose one of your shields and put it into your graveyard.',
@@ -18990,6 +19708,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Norikatsu Miyoshi',
           flavor: 'It tastes your fear. Actually, it tastes everything.',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Dune Gecko'],
@@ -19016,6 +19735,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Hisashi Momose',
           flavor: '"You\'re getting more than just a haircut."',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -19043,6 +19763,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             'It prefers drinking tree sap over drinking blood. But everything else ranks a distant third.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -19051,7 +19772,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SnorkLaShrineGuardian',
       cardFileName: 'SnorkLaShrineGuardian.jpg',
       downloadUrl: {
@@ -19068,6 +19789,7 @@ export const data: Data = {
           id: '13/55',
           rarity: 'Rare',
           illustrator: 'Dustmoss',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Guardian'],
@@ -19093,6 +19815,7 @@ export const data: Data = {
           id: '101/110',
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Spirit Quartz'],
@@ -19118,6 +19841,7 @@ export const data: Data = {
           id: '13/55',
           rarity: 'Common',
           illustrator: 'Iron Pot',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Guardian'],
@@ -19143,6 +19867,7 @@ export const data: Data = {
           id: '14/55',
           rarity: 'Uncommon',
           illustrator: 'Katsuhiko Kojoh',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -19169,6 +19894,7 @@ export const data: Data = {
           illustrator: 'Jason',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/49/SolarRay.jpg/revision/latest?cb=20210210003803',
+          setName: 'DM01',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -19177,6 +19903,7 @@ export const data: Data = {
           illustrator: 'Asai Genji',
           flavor:
             '"You\'re lucky I only used a star. Next time I\'ll send a supernova your way." â€”Elixia, Pureblade Elemental',
+          setName: 'DM10',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose 1 of your opponent's creatures in the battle zone and tap it.",
@@ -19202,6 +19929,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             "Children from the Darkness civilization are regularly warned that it isn't safe to go out before dark.",
+          setName: 'DM11',
         },
       ],
       text: "Choose one of your opponent's creatures in the battle zone and tap it.",
@@ -19228,6 +19956,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             "It has a simple philosophy: If it sees an enemy, it fights. If it doesn't see an enemy, it looks for one.",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -19236,7 +19965,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SolidskinFish',
       cardFileName: 'SolidskinFish.jpg',
       downloadUrl: {
@@ -19255,6 +19984,7 @@ export const data: Data = {
           illustrator: 'Youichi Kai',
           flavor:
             "If you look closely enough, you'll notice the rock has eyes. And teeth.",
+          setName: 'DM05',
         },
       ],
       subtypes: ['Fish'],
@@ -19282,6 +20012,7 @@ export const data: Data = {
           flavor: '"Can\'t catch me!"',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/e/e5/SonicWing.jpg/revision/latest?cb=20210210011522',
+          setName: 'DM01',
         },
       ],
       text: "Choose 1 of your creatures in the battle zone. It can't be blocked this turn.",
@@ -19308,6 +20039,7 @@ export const data: Data = {
           illustrator: 'Katsuhiko Kojoh',
           flavor:
             "It doesn't just live inside the Ultracomputer-it's part of the circuitry.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -19334,6 +20066,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             'The first victim of the war between light and dark was the sky.',
+          setName: 'DM04',
         },
       ],
       text: 'Your opponent chooses and discards a card from his hand for each light creature he has in the battle zone.',
@@ -19358,6 +20091,7 @@ export const data: Data = {
           id: '5/55',
           rarity: 'Very Rare',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Phoenix'],
@@ -19383,6 +20117,7 @@ export const data: Data = {
           id: '91/110',
           rarity: 'Rare',
           illustrator: 'Kou1',
+          setName: 'DM10',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nYou may choose a creature in the battle zone and put it into its owner's mana zone. If you do, choose a non-evolution creature in that player's mana zone that costs the same as or less than the number of cards in that mana zone. That player puts that creature into the battle zone.",
@@ -19409,6 +20144,7 @@ export const data: Data = {
           illustrator: 'Koji Harada',
           flavor:
             '"Uh oh . . . I ripped a hole in the space-time continuum again."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Ghost'],
@@ -19436,6 +20172,7 @@ export const data: Data = {
           illustrator: 'Hisashi Momose',
           flavor:
             'From tiny seeds grow giant, tree-like, spiral-matrix thingies.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -19462,6 +20199,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             '"Hee hee! The missiles are having as much fun as I am!" â€”Rikabu, the Dismantler',
+          setName: 'DM06',
         },
       ],
       text: "Destroy one of your opponent's creatures that has power 3000 or less.",
@@ -19488,6 +20226,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             '"It has one of the most important jobs on the planet - it patrols rainbows. It checks the curvature, makes sure all the colors are in order, that sort of thing. Once orange went missing for a whole month, but Glitalis tracked it down. It always does." â€” Aura Pegasus, Avatar of Life',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Horned Beast', 'Rainbow Phantom'],
@@ -19514,6 +20253,7 @@ export const data: Data = {
           illustrator: 'Youichi Kai',
           flavor:
             '"It\'s immune to swords, lasers, flames, cannonballs, acid, missiles, battering rams, bee stings, paper cuts, little wooden sticks..." â€” Telitol, the Explorer',
+          setName: 'DM06',
         },
       ],
       text: 'If your opponent has more shields than you do, add the top card of your deck to your shields face down.',
@@ -19521,7 +20261,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SpikestrikeIchthysQ',
       cardFileName: 'SpikestrikeIchthysQ.jpg',
       downloadUrl: {
@@ -19540,6 +20280,7 @@ export const data: Data = {
           illustrator: 'Shishizaru',
           flavor:
             '"If the Megapocalypse couldn\'t stop me, what makes you think you can?"',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Fish'],
@@ -19566,6 +20307,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Ippei Soeda',
           flavor: '"And I thought fleas were bad. . . ." â€”Fear Fang',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -19592,6 +20334,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Tsuu',
           flavor: '"I\'m famous for my wheely bad puns."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -19617,6 +20360,7 @@ export const data: Data = {
           id: '5/55',
           rarity: 'Very Rare',
           illustrator: 'Atsushi Kawasaki',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -19643,12 +20387,14 @@ export const data: Data = {
           illustrator: 'Tomofumi Ogasawara',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/6/66/SpiralGate.jpg/revision/latest?cb=20211020003903',
+          setName: 'DM01',
         },
         {
           set: 'DM-06 Stomp-A-Trons of Invincible Wrath',
           id: '47/110',
           rarity: 'Common',
           illustrator: 'Tomofumi Ogasawara',
+          setName: 'DM06',
         },
         {
           set: 'DM-10 Shockwaves of the Shattered Rainbow',
@@ -19656,6 +20402,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Eiji Kaneda',
           flavor: '"Come back when you can handle it." â€”Zaltan',
+          setName: 'DM10',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose a creature in the battle zone and return it to its owner's hand.",
@@ -19680,6 +20427,7 @@ export const data: Data = {
           id: '10/55',
           rarity: 'Rare',
           illustrator: 'Hisashi Momose',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Starlight Tree'],
@@ -19707,6 +20455,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"That\'s the only thing I\'ve ever seen come out of a whirlpool." â€”Iere, Vizier of Bullets',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -19733,6 +20482,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Nottsuo',
           flavor: '"Buzz off."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -19741,7 +20491,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'Split-HeadHydroturtleQ',
       cardFileName: 'Split-HeadHydroturtleQ.jpg',
       downloadUrl: {
@@ -19760,6 +20510,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             '"No fair! The more Survivors there are, the stronger they become!" â€”Mini Titan Gett',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Survivor', 'Gel Fish'],
@@ -19785,6 +20536,7 @@ export const data: Data = {
           id: '92/110',
           rarity: 'Uncommon',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Balloon Mushroom'],
@@ -19812,6 +20564,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             '"The quest for knowledge will never end. It might take a break every now and then-maybe sneak in a quick nap-but end? Never!" â€”Milporo',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Cyber Moon'],
@@ -19839,6 +20592,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             'The only function of Stained Glass, the most adaptable program ever designed by the Cyber Lords, is to help their invasion of the surface world.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -19866,6 +20620,7 @@ export const data: Data = {
           illustrator: 'Ittoku',
           flavor:
             '"You fools. I wasn\'t called the Master of Death for nothing! Your victory is your defeat. Your triumph is your coffin. I have voided my own demise, and from the abyss I am reborn. . . ."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Demon Command'],
@@ -19894,6 +20649,7 @@ export const data: Data = {
           flavor: 'A stampeding longhorn leaves nothing but dust in its wake.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/2/2d/StampedingLonghorn.jpg/revision/latest?cb=20120421172806',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -19920,6 +20676,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"Ready for a fair fight? Me neither." â€”Bluum Erkis, Flare Guardian',
+          setName: 'DM10',
         },
       ],
       text: 'Each player chooses one of his creatures in the battle zone. Tap the rest of the creatures in the battle zone.',
@@ -19946,6 +20703,7 @@ export const data: Data = {
           illustrator: 'Fruit Parfait',
           flavor:
             "When it's not sifting through rubble, it's usually creating new rubble.",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Armorloid'],
@@ -19973,6 +20731,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             '"The Cyber Lords deploy them at volcanic vents on the bottom of the ocean. They monitor the superheated steam, collect it, and-when necessary-use it as a weapon."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -19999,6 +20758,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'The leaders of the Cooperative Assault Force realized that only extreme measures could stop the Avatars now.',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Hedrian'],
@@ -20027,6 +20787,7 @@ export const data: Data = {
           flavor: '"Me big. Me tough. Me smash." â€”Iron Hammer, Boar Warrior',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/58/SteelSmasher.jpg/revision/latest?cb=20120221014125',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -20035,7 +20796,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SteelTurretCluster',
       cardFileName: 'SteelTurretCluster.jpg',
       downloadUrl: {
@@ -20054,6 +20815,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             'After an analysis of its armor was performed, a squad of decoy troops was quickly constructed.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -20080,6 +20842,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Hideaki Takamura',
           flavor: 'The eyes have it.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Cyber Virus'],
@@ -20106,6 +20869,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Asai Genji',
           flavor: '"See? The swimming lessons worked." â€”Fear Fang',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -20134,6 +20898,7 @@ export const data: Data = {
           flavor: 'When worms kill a creature, they can still make it move.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9b/StingerWorm.jpg/revision/latest?cb=20210210031805',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -20163,6 +20928,7 @@ export const data: Data = {
             'There is no sanctuary in the Fire Territory. Especially on the featureless, rocky plains.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c9/Stonesaur.jpg/revision/latest?cb=20210210075623',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -20192,6 +20958,7 @@ export const data: Data = {
             "A Colony Beetle's spawning is a virtual nightmare. It covers the earth with a hail of its bullet-like eggs.",
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/4f/StormShell.jpg/revision/latest?cb=20130115201416',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -20217,6 +20984,7 @@ export const data: Data = {
           id: '51/55',
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -20245,6 +21013,7 @@ export const data: Data = {
           illustrator: 'Yarunoca',
           flavor:
             "Born from the pain of the Fiona Woods, it finally put an end to Ballom's reign. With its foot.",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Giant'],
@@ -20271,6 +21040,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"Ballom\'s death changes nothing. Keep digging to the core." â€”Emperor Maroll',
+          setName: 'DM09',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nLook at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order.',
@@ -20296,6 +21066,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"The danger hasn\'t passed. But we have." â€”Miar, Comet Elemental',
+          setName: 'DM03',
         },
       ],
       text: 'Add a card from your hand to your shields face down.',
@@ -20323,6 +21094,7 @@ export const data: Data = {
           flavor: 'After it attacks, the lucky are left with rubble.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/5/55/SuperExplosiveVolcanodon.jpg/revision/latest?cb=20210210075628',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -20349,6 +21121,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Ittoku',
           flavor: 'The Dragons rose. Hopes fell.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Zombie Dragon'],
@@ -20375,6 +21148,7 @@ export const data: Data = {
           id: 'S5/55',
           rarity: 'Super Rare',
           illustrator: 'Taro Yamazaki',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -20402,6 +21176,7 @@ export const data: Data = {
           illustrator: '\tAkifumi Yamamoto',
           flavor:
             '"Faster than the speed of sound? Check. Faster than the speed of light? I\'m gonna need a couple more weeks on that one." â€”Bombat, General of Speed',
+          setName: 'DM10',
         },
       ],
       text: 'One of your creatures in the battle zone gets "speed attacker" until the end of the turn. (It doesn\'t get summoning sickness.)',
@@ -20427,6 +21202,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Atsushi Kawasaki',
           flavor: 'They only bloom in outer space.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -20455,6 +21231,7 @@ export const data: Data = {
           flavor: 'Flesh is its food. Bones are its toothpicks.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/88/SwampWorm.jpg/revision/latest?cb=20210210032805',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -20482,6 +21259,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             'One snoutful of its pollen can knock out a Horned Beast for a week.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -20508,6 +21286,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             '"Alcadeias has given us a great gift! We\'re saved! We\'re...ummm, can anyone lift that thing?" â€” Fear Fang',
+          setName: 'DM04',
         },
       ],
       text: 'Each of your creatures in the battle zone gets +1000 power until the end of the turn for each light creature you have in the battle zone.',
@@ -20533,6 +21312,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             'Ballom gives his armies haunted swords, each with a soul trapped inside.',
+          setName: 'DM04',
         },
       ],
       text: 'Until the end of the turn, each of your creatures in the battle zone gets "While attacking, this creature gets +1000 power for each darkness card in your mana zone."',
@@ -20540,7 +21320,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SyforceAuroraElemental',
       cardFileName: 'SyforceAuroraElemental.jpg',
       downloadUrl: {
@@ -20557,6 +21337,7 @@ export const data: Data = {
           id: '14/55',
           rarity: 'Rare',
           illustrator: 'Shishizaru',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Angel Command'],
@@ -20565,7 +21346,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'SyriusFirmamentElemental',
       cardFileName: 'SyriusFirmamentElemental.jpg',
       downloadUrl: {
@@ -20583,6 +21364,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Ryoya Yuki',
           flavor: '"The Megapocalypse is over. But the damage has just begun."',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Angel Command'],
@@ -20611,6 +21393,7 @@ export const data: Data = {
           flavor: 'Those who dwell in the sky towers eradicate all intruders.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/0/0c/SzubsKinTwilightGuardian.jpg/revision/latest?cb=20211207131605',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Guardian'],
@@ -20637,6 +21420,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Akifumi Yamamoto',
           flavor: 'It carries out the revenge of the shattered rainbow.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Spirit Quartz'],
@@ -20662,6 +21446,7 @@ export const data: Data = {
           id: '98/110',
           rarity: 'Uncommon',
           illustrator: 'D-Suzuki',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Initiate', 'Liquid People'],
@@ -20689,6 +21474,7 @@ export const data: Data = {
           illustrator: 'Mikumo',
           flavor:
             'Few shamans study the craft of goop magic. Fewer still become masters.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -20716,6 +21502,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             '"Fire the Shocktacular Zaptronic Megaparticle Lasoblaster Disruptulating Cannon! No, the other one."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Hedrian'],
@@ -20741,6 +21528,7 @@ export const data: Data = {
           id: '8/110',
           rarity: 'Very Rare',
           illustrator: 'Yarunoca',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Spirit Quartz'],
@@ -20768,6 +21556,7 @@ export const data: Data = {
           illustrator: 'Nakagawa',
           flavor:
             '"Hey, Ugly-Face! Yeah, you with the ugly face! You smell like something Hurlosaur horked up! And not on a good day. I mean when he\'s sick \'cause he was up all night eating raw Fire Bird eggs. Peee-yeeew!"',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -20793,6 +21582,7 @@ export const data: Data = {
           id: '10/110',
           rarity: 'Very Rare',
           illustrator: 'Katsuya',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -20819,6 +21609,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Yarunoca',
           flavor: 'The bigger the eyes, the better it spies.',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -20846,6 +21637,7 @@ export const data: Data = {
           flavor: '"Start all over from your previous life!" â€”Crystal Lancer',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/0/06/Teleportation.jpg/revision/latest?cb=20130401231711',
+          setName: 'DM01',
         },
       ],
       text: "Choose up to 2 creatures in the battle zone and return them to their owners' hands.",
@@ -20871,6 +21663,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Asai Genji',
           flavor: '"Wherever I go, daylight follows."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Gladiator'],
@@ -20897,6 +21690,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             '"To be honest, we don\'t really know if it\'s ten tons. Whenever we try to weigh it, the scale breaks." â€”Slaphappy Soldier',
+          setName: 'DM11',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nDestroy one of your opponent's creatures that has power 3000 or less.",
@@ -20923,6 +21717,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             '"The heat-ray tentacle and the cold-ray tentacle are smashing successes. The lukewarm-ray tentacle needs some work." â€”Corile',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -20950,6 +21745,7 @@ export const data: Data = {
           illustrator: 'Koji Watanabe',
           flavor:
             '"Deep in the roots of the Fiona Woods, the seeds of destruction writhe, squirm, crawl...and multiply."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -20976,6 +21772,7 @@ export const data: Data = {
           illustrator: 'Eiji Kaneda',
           flavor:
             "The ever-increasing cries of the world only fuel the Dragons' anger.",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -21003,6 +21800,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"Are we being attacked by a Dragon, or did a garden just explode?" â€” Hydrooze, the Mutant Emperor',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -21029,6 +21827,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Ken Sugawara',
           flavor: 'Its barely contained power breaks every law of nature.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -21054,6 +21853,7 @@ export const data: Data = {
           id: 'S8/110',
           rarity: 'Super Rare',
           illustrator: 'Ryoya Yuki',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -21081,6 +21881,7 @@ export const data: Data = {
           illustrator: 'Mikumo',
           flavor:
             "Quazla's doomsday device caused the planet's core to crack. That was the alarm clock the Dragons had been waiting for.",
+          setName: 'DM08',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -21108,6 +21909,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             'Once the Gate of Wards was unwittingly destroyed, there was nothing that could hold the Dragons back.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Earth Dragon'],
@@ -21134,6 +21936,7 @@ export const data: Data = {
           illustrator: 'Yusaku Nakaaki',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/c/c4/TerrorPit.jpg/revision/latest?cb=20210210031812',
+          setName: 'DM01',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy 1 of your opponent's creatures.",
@@ -21159,6 +21962,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             'Although illusionary moonbeam weapons are much lighter than stone or metal ones, the fact that they vanish in daylight is a bit of a drawback.',
+          setName: 'DM10',
         },
       ],
       text: 'Each of your creatures gets "power attacker +1000" until the end of the turn. (While attacking, a creature that has "power attacker +1000" gets +1000 power.)',
@@ -21186,6 +21990,7 @@ export const data: Data = {
           flavor: 'A beautiful flower, an alluring scent...and deadly thorns.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/a6/ThornyMandra.jpg/revision/latest?cb=20130212000236',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -21210,6 +22015,7 @@ export const data: Data = {
           id: '22/55',
           rarity: 'Uncommon',
           illustrator: 'Dreamwave',
+          setName: 'DM02',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nWhen you cast this spell, if your opponent has 3 or more creatures in the battle zone, draw 3 cards.',
@@ -21235,6 +22041,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Yoko Tsukamoto',
           flavor: 'Erosion...with a vengeance.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -21261,6 +22068,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Youichi Kai',
           flavor: 'The third eye sees a few seconds into the future.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -21287,6 +22095,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Koji Watanabe',
           flavor: "It'll never turn its back on you. It can't.",
+          setName: 'DM07',
         },
       ],
       subtypes: ['Devil Mask'],
@@ -21313,6 +22122,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Hisashi Momose',
           flavor: '"Catch my drift?"',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Guardian'],
@@ -21321,7 +22131,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'ThunderNet',
       cardFileName: 'ThunderNet.jpg',
       downloadUrl: {
@@ -21339,6 +22149,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             '"When the device is activated, a net of electricity snares our enemies!" â€”Syrius, Firmament Elemental',
+          setName: 'DM05',
         },
       ],
       text: "For each water creature you have in the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it.",
@@ -21365,6 +22176,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"I snagged a fisherman last week. He put up quite a struggle before I pulled him in, but he turned out to be too small. I had to throw him back."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Merfolk'],
@@ -21392,6 +22204,7 @@ export const data: Data = {
           illustrator: 'Haccan',
           flavor:
             '"The speed of time is holding steady at one second per second. Tomorrow is on track to arrive as scheduled. All\'s quiet on the temporal front."',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Merfolk'],
@@ -21419,6 +22232,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             'Deep beneath the waves, unnoticed, the program that would betray its masters began to run.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -21448,6 +22262,7 @@ export const data: Data = {
             '"Vizier of Hope, arise. Your singing voice is a breeze of dawn." â€”Hanusa, Radiance Elemental',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/b/b3/ToelVizierofHope.jpg/revision/latest?cb=20210316075758',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Initiate'],
@@ -21475,6 +22290,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             '"When the Elementals attacked, no one in the Fire realm joined the army. They were all already in it."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Dragonoid'],
@@ -21502,6 +22318,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "This ritual seeds the sky with lightning, rips infected trees up by the roots, and turns me a rockin' shade of blue.",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Beast Folk'],
@@ -21528,6 +22345,7 @@ export const data: Data = {
           illustrator: 'Soushi Hirose',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/a/ab/TornadoFlame.jpg/revision/latest?cb=20210210075633',
+          setName: 'DM01',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy 1 of your opponent's creatures that has power 4000 or less.",
@@ -21554,6 +22372,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             'Even the smallest rock can become a missile if you put enough thrust behind it.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Cluster'],
@@ -21581,6 +22400,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             "The Wyverns weren't that excited about the rise of their long-lost cousins-until they saw the chaos and confusion the Dragons caused in the skies.",
+          setName: 'DM08',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -21608,6 +22428,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             'The Fire Birds flitted across the sky, their voices raised in joy. The time of awakening had come at last.',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Fire Bird'],
@@ -21636,6 +22457,7 @@ export const data: Data = {
           flavor: 'Not many things want to get in its way.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/0/09/TowerShell.jpg/revision/latest?cb=20130401230735',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Colony Beetle'],
@@ -21662,6 +22484,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Haccan',
           flavor: "As news of Ballom's death spread, so did the rejoicing.",
+          setName: 'DM09',
         },
       ],
       subtypes: ['Guardian'],
@@ -21686,6 +22509,7 @@ export const data: Data = {
           id: '43/110',
           rarity: 'Rare',
           illustrator: 'Akira Hamada',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nYou may destroy a creature. If you do, its owner reveals cards from the top of his deck until he reveals a non-evolution creature. He puts that creature into the battle zone and puts the rest of those cards into his graveyard.',
@@ -21712,6 +22536,7 @@ export const data: Data = {
           illustrator: 'Iron Pot',
           flavor:
             '"Since their sharp blades are dangerous even to one another, these Insects tend to live alone."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -21738,6 +22563,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Nottsuo',
           flavor: '"Better. . . . But let\'s add another eye." â€”Emeral',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Gel Fish'],
@@ -21767,6 +22593,7 @@ export const data: Data = {
             'Sometimes weeks pass before it realizes it has a gored enemy stuck to its horns.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/1/1b/TriHornShepherd.jpg/revision/latest?cb=20210210093804',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -21792,6 +22619,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Ippei Soeda',
           flavor: '"A trick for you. A treat for me."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Death Puppet'],
@@ -21817,6 +22645,7 @@ export const data: Data = {
           id: '40/55',
           rarity: 'Common',
           illustrator: 'Asai Genji',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -21845,6 +22674,7 @@ export const data: Data = {
           flavor: '"I will lead you into battle."',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9b/Tropico.jpg/revision/latest?cb=20120221010139',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -21871,6 +22701,7 @@ export const data: Data = {
           rarity: 'Very Rare',
           illustrator: 'Hideaki Takamura',
           flavor: 'Say goodbye to the daytime.',
+          setName: 'DM04',
         },
       ],
       subtypes: ['Demon Command'],
@@ -21898,6 +22729,7 @@ export const data: Data = {
           illustrator: 'Ippei Soeda',
           flavor:
             'Light Bringers are forged in the crucible of dawn out of a cosmic mixture of the hope embodied by a brand-new day, the final kiss of a waning moon, the sigh of a cloud, the caress of a breeze, and a nuclear warhead unstable enough to blow a continent clear off the planet.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -21924,6 +22756,7 @@ export const data: Data = {
           illustrator: 'Ippei Soeda',
           flavor:
             '"It\'s amazing - it\'s slower than the speed of time!" â€” Soul Phoenix, Avatar of Unity',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -21932,7 +22765,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'TwinCannonSkyterror',
       cardFileName: 'TwinCannonSkyterror.jpg',
       downloadUrl: {
@@ -21951,6 +22784,7 @@ export const data: Data = {
           illustrator: 'Hideaki Takamura',
           flavor:
             'The first cannon blasts your flesh. The second cannon blasts your soul.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Armored Wyvern'],
@@ -21978,6 +22812,7 @@ export const data: Data = {
           illustrator: 'Taro Yamazaki',
           flavor:
             '"Oh, dear, that horn could put someone\'s eye out! Er, I mean, I gotta ride me one of those!" â€”Adventure Boar (formerly Caution Boar)',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Horned Beast'],
@@ -22005,6 +22840,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             '"If you go outside, bring a raincoat, an umbrella, and an anchor." â€” Wise Starnoid, Avatar of Hope',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -22031,6 +22867,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Youichi Kai',
           flavor: "It's scared of scared people.",
+          setName: 'DM08',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -22058,6 +22895,7 @@ export const data: Data = {
           illustrator: 'Akira Hamada',
           flavor:
             "\"Everyone who's been naughty gets a spanking! And just so we're clear, you've all been naughty!\"",
+          setName: 'DM12',
         },
       ],
       subtypes: ['Angel Command'],
@@ -22085,6 +22923,7 @@ export const data: Data = {
           illustrator: 'Daisuke Izuka',
           flavor:
             "Across the planet, rainbow fragments merged and crystallized into a new life form. It was immediately clear that they played by their own rules - and they wouldn't be taken lightly.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Spirit Quartz'],
@@ -22112,6 +22951,7 @@ export const data: Data = {
           illustrator: 'Toshiaki Takayama',
           flavor:
             '"Do you like my scarf? It\'s made of your soul. I yanked it out when you weren\'t looking. Sorry."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -22138,6 +22978,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Toshiaki Takayama',
           flavor: 'Its vast wings encircle the world like a shroud.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -22165,6 +23006,7 @@ export const data: Data = {
           flavor: '"Great Earth, give me your might!" â€”Fighter Dual Fang',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/8d/UltimateForce.jpg/revision/latest?cb=20210210093610',
+          setName: 'DM01',
         },
       ],
       text: 'Put the top 2 cards of your deck into your mana zone.',
@@ -22190,6 +23032,7 @@ export const data: Data = {
           rarity: 'Super Rare',
           illustrator: 'Seki',
           flavor: "It doesn't need a weapon-it is a weapon.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -22218,6 +23061,7 @@ export const data: Data = {
           illustrator: 'Hikaru Ikusa',
           flavor:
             '"Aww. My little Worm is all grown up." â€”Ballom, Master of Death',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -22246,6 +23090,7 @@ export const data: Data = {
           illustrator: 'Koji Harada',
           flavor:
             '"Most turnips can\'t see the future. Most turnips don\'t wear a cape."',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Wild Veggies'],
@@ -22275,6 +23120,7 @@ export const data: Data = {
             'It attacks anything that enters its territory, even Leviathans.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/b/b8/UnicornFish.jpg/revision/latest?cb=20211020003854',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Fish'],
@@ -22299,6 +23145,7 @@ export const data: Data = {
           id: '15/55',
           rarity: 'Uncommon',
           illustrator: 'Akifumi Yamamoto',
+          setName: 'DM09',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose a race. Until the start of your next turn, each of your creatures in the battle zone of that race gets "Blocker (Whenever an opponent\'s creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle)."',
@@ -22324,6 +23171,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'When the rainbow crashed to earth, entire islands flipped over.',
+          setName: 'DM10',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it for no cost.)\nEach player puts all the cards from his mana zone into his hand and, at the same time, puts all the cards from his hand into his mana zone tapped.',
@@ -22350,6 +23198,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"What will it do if it finds the sunlight?" â€”Bloody Squito',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Mecha Thunder'],
@@ -22379,6 +23228,7 @@ export const data: Data = {
             'It is said the destruction of the Ancient Empire was caused by the descent of the elementals.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/9/9e/UrthPurifyingElemental.jpg/revision/latest?cb=20130111184952',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Angel Command'],
@@ -22405,6 +23255,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             '"I hope you\'re not allergic to slime. Nah, I\'m just kidding." â€”Mongrel Man',
+          setName: 'DM07',
         },
       ],
       text: "Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy one of your opponent's untapped light or untapped nature creatures.",
@@ -22431,6 +23282,7 @@ export const data: Data = {
           illustrator: 'Seki',
           flavor:
             '"If you ever want to find me, just look between the explosions."',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Armorloid'],
@@ -22457,6 +23309,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Taro Yamazaki',
           flavor: '"I liked him better when he was dormant." â€”Tropico',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Rock Beast'],
@@ -22485,6 +23338,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             '"I fear no enemy. I fear no battle. I fear no sacrifice. I\'m a little afraid of clowns, though."',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Angel Command'],
@@ -22513,6 +23367,7 @@ export const data: Data = {
           flavor: 'Dark Lords have no mercy for the weak.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/4/48/VampireSilphy.jpg/revision/latest?cb=20130128184001',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Dark Lord'],
@@ -22521,7 +23376,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'VashunaSwordDancer',
       cardFileName: 'VashunaSwordDancer.jpg',
       downloadUrl: {
@@ -22539,6 +23394,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Jason',
           flavor: '"Now, you shall see the ancient secrets of the East!"',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Demon Command'],
@@ -22566,6 +23422,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             '"Why do we need the snake when we can just have the venom?" â€”Uliya, the Entrancer',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Brain Jacker'],
@@ -22590,6 +23447,7 @@ export const data: Data = {
           id: '35/55',
           rarity: 'Uncommon',
           illustrator: 'Daisuke Izuka',
+          setName: 'DM07',
         },
       ],
       text: 'One of your creatures in the battle zone gets "slayer" until the end of the turn. (Whenever a creature that has "slayer" battles, destroy the other creature after the battle.)\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -22615,6 +23473,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Jason',
           flavor: '"Ewww. And I thought I was disgusting." â€”Gigazoul',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Parasite Worm'],
@@ -22642,6 +23501,7 @@ export const data: Data = {
           illustrator: 'Ken Sugawara',
           flavor:
             "The glow surrounding an Oracle's body is created by the songs of the Elementals.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -22667,6 +23527,7 @@ export const data: Data = {
           id: '24/55',
           rarity: 'Rare',
           illustrator: 'Ittoku',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -22694,6 +23555,7 @@ export const data: Data = {
           illustrator: 'D-Suzuki',
           flavor:
             'Its heart cries for conquest. Its blood sings a dirge of doom.',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Demon Command'],
@@ -22719,6 +23581,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Naoki Saito',
           flavor: "Today's powerbot is tomorrow's flowerpot.",
+          setName: 'DM09',
         },
       ],
       text: 'Your opponent chooses one of his creatures in the battle zone and puts it into his mana zone.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)',
@@ -22745,6 +23608,7 @@ export const data: Data = {
           flavor: 'It will stay until it dies.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/b/b2/VirtualTripwire.jpg/revision/latest?cb=20210210020852',
+          setName: 'DM01',
         },
       ],
       text: "Choose 1 of your opponent's creatures in the battle zone and tap it.",
@@ -22768,6 +23632,7 @@ export const data: Data = {
           id: '44/55',
           rarity: 'Common',
           illustrator: 'Seki',
+          setName: 'DM03',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nDestroy a creature that has power 6000 or less.\nChoose one of your shields and put it into your graveyard.',
@@ -22793,6 +23658,7 @@ export const data: Data = {
           illustrator: 'Mikumo',
           flavor:
             'Crimson petals scar the earth, sowing the seeds for the next eruptions.',
+          setName: 'DM08',
         },
       ],
       text: "Destroy one of your opponent's creatures that has power 2000 or less.\nCharger (After you cast this spell, put it into your mana zone instead of your graveyard.)",
@@ -22819,6 +23685,7 @@ export const data: Data = {
           illustrator: 'Fruit Parfait',
           flavor:
             "\"Is there any word more meaningless than 'hope'? Besides 'blarfurgsnarg,' of course.\"",
+          setName: 'DM04',
         },
       ],
       subtypes: ['Ghost'],
@@ -22845,6 +23712,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Kou1',
           flavor: "The world's first external combustion engine.",
+          setName: 'DM10',
         },
       ],
       subtypes: ['Xenoparts'],
@@ -22872,6 +23740,7 @@ export const data: Data = {
           illustrator: 'Jason',
           flavor:
             'It lays down savage jungle beats to help its friends lay down savage jungle beatings.',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -22899,6 +23768,7 @@ export const data: Data = {
           illustrator: 'Akifumi Yamamoto',
           flavor:
             'The faster it runs from its pain, the faster its pain catches others.',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Ghost'],
@@ -22928,6 +23798,7 @@ export const data: Data = {
             'Devouring nice, fresh brains is all they know . . . and all they care about.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/8f/WanderingBraineater.jpg/revision/latest?cb=20210210032809',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Living Dead'],
@@ -22955,6 +23826,7 @@ export const data: Data = {
           illustrator: 'Masaki Hirooka',
           flavor:
             'It knows when war is coming because it decides when war is coming.',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Gladiator'],
@@ -22981,6 +23853,7 @@ export const data: Data = {
           id: '23/55',
           rarity: 'Rare',
           illustrator: 'Yarunoca',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Cyber Moon'],
@@ -23006,6 +23879,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Taro Yamazaki',
           flavor: 'Even the ruler of the skies cannot best the waters.',
+          setName: 'DM08',
         },
       ],
       text: "Choose a creature in the battle zone and return it to its owner's hand. If it has Dragon in its race, you may draw a card.",
@@ -23032,6 +23906,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             '"I hate it when my pets fill up on junk food." â€”Storm Wrangler, the Furious',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -23058,6 +23933,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Katsuhiko Kojoh',
           flavor: "It doesn't get dizzy unless it stands still.",
+          setName: 'DM12',
         },
       ],
       subtypes: ['Armorloid'],
@@ -23083,6 +23959,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Katsuya',
           flavor: 'Get ready for a bad hair day.',
+          setName: 'DM04',
         },
       ],
       text: 'At the end of the turn, untap all your creatures in the battle zone.',
@@ -23109,6 +23986,7 @@ export const data: Data = {
           illustrator: 'Dai',
           flavor:
             '"Psst . . . come closer . . . closer . . . . Wanna hear a secret? I hate woodpeckers."',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Mystery Totem'],
@@ -23135,6 +24013,7 @@ export const data: Data = {
           rarity: 'Common',
           illustrator: 'Jason',
           flavor: 'Burning rubber, burning rage.',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Human'],
@@ -23162,6 +24041,7 @@ export const data: Data = {
           illustrator: 'Takesi Kuno',
           flavor:
             '"I specialize in making the final cut on a boat before it\'s finished. It\'s usually in the form of a circular hole in the bottom of the hull. . . ."',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Merfolk'],
@@ -23188,6 +24068,7 @@ export const data: Data = {
           rarity: 'Uncommon',
           illustrator: 'Akira Hamada',
           flavor: 'He burns with the true fury of the untamed.',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Human', 'Beast Folk'],
@@ -23215,6 +24096,7 @@ export const data: Data = {
           illustrator: 'Atsushi Kawasaki',
           flavor:
             "\"I'm bored. Bored, bored, bored. Hold on, I've got a crazy idea - for the rest of the day, I'm gonna spin counterclockwise!\"",
+          setName: 'DM12',
         },
       ],
       subtypes: ['Hedrian'],
@@ -23242,6 +24124,7 @@ export const data: Data = {
           illustrator: 'Miho Midorikawa',
           flavor:
             '"Quick, someone get a 10-story flyswatter!" â€” Punch Trooper Bronks',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -23267,6 +24150,7 @@ export const data: Data = {
           id: 'S2/55',
           rarity: 'Super Rare',
           illustrator: 'Syuichi Obata',
+          setName: 'DM12',
         },
       ],
       subtypes: ['Starnoid'],
@@ -23276,7 +24160,7 @@ export const data: Data = {
       manaValue: 1,
     },
     {
-      setName: 'dm05',
+      setName: 'dm05.raw.json',
       cardName: 'WispHowlerShadowofTears',
       cardFileName: 'WispHowlerShadowofTears.jpg',
       downloadUrl: {
@@ -23295,6 +24179,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             'Although it has no body to feed, it never stops devouring souls.',
+          setName: 'DM05',
         },
       ],
       subtypes: ['Ghost'],
@@ -23320,6 +24205,7 @@ export const data: Data = {
           id: '55/55',
           rarity: 'Rare',
           illustrator: 'D-Suzuki',
+          setName: 'DM07',
         },
       ],
       subtypes: ['Tree Folk'],
@@ -23350,6 +24236,7 @@ export const data: Data = {
             'Seeking power, they gave up their intelligence. What they found was pain.',
           image:
             'https://static.wikia.nocookie.net/duelmasters/images/8/85/WrithingBoneGhoul.jpg/revision/latest?cb=20210210031828',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Living Dead'],
@@ -23376,6 +24263,7 @@ export const data: Data = {
           illustrator: 'Kou1',
           flavor:
             'As the oracles disappeared one by one, they each proclaimed the dawn of a new era.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -23403,6 +24291,7 @@ export const data: Data = {
           illustrator: 'Katsuya',
           flavor:
             'The invading Worms drained the magical life out of the forest...and the cataclysm began.',
+          setName: 'DM02',
         },
       ],
       subtypes: ['Giant Insect'],
@@ -23428,6 +24317,7 @@ export const data: Data = {
           id: '14/55',
           rarity: 'Rare',
           illustrator: 'Dai',
+          setName: 'DM11',
         },
       ],
       subtypes: ['Mecha Del Sol'],
@@ -23455,6 +24345,7 @@ export const data: Data = {
           illustrator: 'Sansyu',
           flavor:
             '"As an Oracle, I have the power to see the future. But my lottery numbers still never get picked!"',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Light Bringer'],
@@ -23482,6 +24373,7 @@ export const data: Data = {
           illustrator: 'Tsutomu Kawade',
           flavor:
             '"If I were to send him to the field, he would overwhelm the enemy in an instant. Where is the fun in that?" â€”Ballom, Master of Death',
+          setName: 'DM01',
         },
       ],
       subtypes: ['Demon Command'],
@@ -23509,6 +24401,7 @@ export const data: Data = {
           illustrator: 'Asai Genji',
           flavor:
             '"I\'m in a slump. I haven\'t thought of a scheme to conquer the world since yesterday."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Cyber Lord'],
@@ -23536,6 +24429,7 @@ export const data: Data = {
           illustrator: 'Naoki Saito',
           flavor:
             "Those used to be nuclear submarines. Now they're bathtub toys.",
+          setName: 'DM06',
         },
       ],
       subtypes: ['Sea Hacker'],
@@ -23561,6 +24455,7 @@ export const data: Data = {
           id: '25/55',
           rarity: 'Rare',
           illustrator: 'Ken Sugawara',
+          setName: 'DM09',
         },
       ],
       subtypes: ['Earth Eater'],
@@ -23587,6 +24482,7 @@ export const data: Data = {
           rarity: 'Rare',
           illustrator: 'Akira Hamada',
           flavor: '"Break their spirit, and their minds will follow."',
+          setName: 'DM10',
         },
       ],
       subtypes: ['Ghost'],
@@ -23614,6 +24510,7 @@ export const data: Data = {
           illustrator: 'Norikatsu Miyoshi',
           flavor:
             '"Don\'t just sit there like a corpse-get up and dance!" â€”Bat Doctor',
+          setName: 'DM09',
         },
       ],
       text: 'Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)\nChoose a race. Return up to 3 creatures of that race from your graveyard to your hand.',
@@ -23638,6 +24535,7 @@ export const data: Data = {
           id: '70/110',
           rarity: 'Common',
           illustrator: 'Hisashi Momose',
+          setName: 'DM06',
         },
       ],
       subtypes: ['Demon Command'],
@@ -23663,6 +24561,7 @@ export const data: Data = {
           id: 'S4/55',
           rarity: 'Super Rare',
           illustrator: 'Seki',
+          setName: 'DM08',
         },
       ],
       subtypes: ['Armored Dragon'],
@@ -23689,6 +24588,7 @@ export const data: Data = {
           id: '43/55',
           rarity: 'Very Rare',
           illustrator: 'Masaki Hirooka',
+          setName: 'DM03',
         },
       ],
       subtypes: ['Armored Dragon'],

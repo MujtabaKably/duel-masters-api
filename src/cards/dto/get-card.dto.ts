@@ -1,5 +1,13 @@
 import { Transform } from 'class-transformer';
-import { IsArray, IsInt, IsOptional } from 'class-validator';
+import { IsArray, IsEnum, IsInt, IsOptional, IsString } from 'class-validator';
+
+enum operators {
+  EQ = '===',
+  LTE = '<=',
+  GTE = '>=',
+  GT = '<',
+  LT = '>',
+}
 export class GetCardDTO {
   @IsOptional()
   @IsInt()
@@ -70,10 +78,18 @@ export class GetCardDTO {
   @IsOptional()
   power?: number;
 
+  @IsEnum(operators)
+  @IsOptional()
+  powerOperator?: string = operators.EQ;
+
   @IsInt()
   @Transform((v) => +v.value)
   @IsOptional()
   mana?: number;
+
+  @IsEnum(operators)
+  @IsOptional()
+  manaOperator?: string = operators.EQ;
 
   @IsOptional()
   @IsArray()
@@ -83,4 +99,12 @@ export class GetCardDTO {
       : [v.value.toLowerCase()],
   )
   properties?: string[];
+
+  @IsOptional()
+  @Transform((v) => v.value.toLowerCase())
+  search?: string;
+
+  @IsOptional()
+  @Transform((v) => v.value.toLowerCase())
+  name?: string;
 }
